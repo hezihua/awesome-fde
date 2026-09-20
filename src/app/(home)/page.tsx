@@ -103,6 +103,32 @@ export default async function Home() {
           })}
         </section>
 
+        <section className="mb-16">
+          <Link
+            href="/business"
+            className="group block rounded-2xl border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 via-neutral-900/40 to-amber-500/10 p-6 transition-all hover:-translate-y-0.5 hover:border-emerald-500/35 hover:shadow-[0_0_40px_-15px_rgba(16,185,129,0.28)] sm:p-8"
+          >
+            <div className="mb-3 flex items-center gap-2">
+              <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
+              <span className="text-xs uppercase tracking-wider text-neutral-500">
+                商业计划书
+              </span>
+            </div>
+            <h2 className="mb-2 text-xl font-semibold text-neutral-100">
+              怎么赚钱，卖的是什么
+            </h2>
+            <p className="mb-5 max-w-2xl text-sm leading-relaxed text-neutral-400">
+              培训验证需求，定制交付结果，标品和订阅持续收费。价格带从三千到三十万，对应不同买家和验收。
+            </p>
+            <div className="flex items-center justify-between text-xs text-neutral-500">
+              <span>产品服务 · 盈利模式 · 价格带</span>
+              <span className="transition-colors group-hover:text-emerald-400">
+                查看计划书 →
+              </span>
+            </div>
+          </Link>
+        </section>
+
         <section>
           <div className="mb-6 flex items-end justify-between">
             <h2 className="text-lg font-semibold text-neutral-100">全部笔记</h2>

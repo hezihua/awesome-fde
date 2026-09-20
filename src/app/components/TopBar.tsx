@@ -28,6 +28,14 @@ const items = [
       "border-violet-500/40 bg-violet-500/10 text-violet-200 hover:border-violet-400/60 hover:bg-violet-500/15",
     idle: "border-neutral-800 bg-neutral-900/40 text-neutral-400 hover:border-neutral-700 hover:text-neutral-200",
   },
+  {
+    key: "business",
+    label: "商业计划",
+    href: "/business",
+    active:
+      "border-emerald-500/40 bg-emerald-500/10 text-emerald-200 hover:border-emerald-400/60 hover:bg-emerald-500/15",
+    idle: "border-neutral-800 bg-neutral-900/40 text-neutral-400 hover:border-neutral-700 hover:text-neutral-200",
+  },
 ] as const;
 
 export function TopBar() {
@@ -43,10 +51,10 @@ export function TopBar() {
           Awesome FDE
         </Link>
 
-        <nav className="flex items-center gap-2">
+        <nav className="flex flex-wrap items-center justify-end gap-1.5 sm:gap-2">
           {items.map((item) => {
             const isActive = pathname.startsWith(item.href);
-            const className = `rounded-lg border px-3.5 py-1.5 text-sm font-medium transition-all ${
+            const className = `rounded-lg border px-2.5 py-1.5 text-xs font-medium transition-all sm:px-3.5 sm:text-sm ${
               isActive ? item.active : item.idle
             }`;
             return (
