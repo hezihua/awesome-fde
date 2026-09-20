@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+.vercel
+
+# Env
+.env
+.env*.local
+
+# OS / editor
+.DS_Store
+*.log
+
+# Accidental lockfiles
+/package-lock.json
