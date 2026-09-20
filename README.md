@@ -38,7 +38,7 @@ awesome-fde/
 
 ## 本地开发
 
-前置：Node.js ≥ 18，pnpm ≥ 8
+前置：Node.js 24，pnpm ≥ 8
 
 ```bash
 pnpm install
