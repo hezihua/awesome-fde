@@ -12,7 +12,7 @@ lecture: 3
 
 ## 一、为什么先做 K
 
-AKA 里，Agent 是能干活的 AI，Automation 是自动处理。第三节只讲 **K：Knowledge Base and Database**。
+AKA 里，Agent 是能干活的 AI，Automation 是自动处理。第三节只讲 **K：Knowledge Base and Database**（第二节已说明 K 为何是「途经点」，本节不再重复框架，只讲治理与落地）。
 
 > 自动化建立在知识库和数据库比较清晰完整的基础上。你都不知道工作 1、2、3 步怎么做、公司资料在哪，怎么让 AI 替你干活？
 
