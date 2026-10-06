@@ -111,19 +111,19 @@ export default async function Home() {
             <div className="mb-3 flex items-center gap-2">
               <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
               <span className="text-xs uppercase tracking-wider text-neutral-500">
-                商业计划书
+                企业 AI 服务
               </span>
             </div>
             <h2 className="mb-2 text-xl font-semibold text-neutral-100">
-              怎么赚钱，卖的是什么
+              企业 AI 落地服务说明
             </h2>
             <p className="mb-5 max-w-2xl text-sm leading-relaxed text-neutral-400">
-              培训验证需求，定制交付结果，标品和订阅持续收费。价格带从三千到三十万，对应不同买家和验收。
+              面向企业老板和业务负责人，介绍 AI 落地服务、试点方式、参考投入与合作节奏。
             </p>
             <div className="flex items-center justify-between text-xs text-neutral-500">
-              <span>产品服务 · 盈利模式 · 价格带</span>
+              <span>适用对象 · 合作流程 · 参考投入</span>
               <span className="transition-colors group-hover:text-emerald-400">
-                查看计划书 →
+                查看服务说明 →
               </span>
             </div>
           </Link>

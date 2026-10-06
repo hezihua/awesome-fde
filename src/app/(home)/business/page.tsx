@@ -2,77 +2,55 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "商业计划书",
+  title: "企业 AI 落地服务说明",
   description:
-    "Awesome FDE 的产品与服务、盈利模式与价格带：培训验证需求，定制交付结果，标品和订阅持续收费。",
+    "面向企业老板和业务负责人的 Awesome FDE 服务说明：了解 AI 落地服务、试点方式、参考投入与合作节奏。",
 };
 
 const services = [
   {
-    stage: "挖水井",
-    title: "诊断与顾问",
-    price: "按场 / 按月",
-    summary: "先当商业医生，再谈工具。把水源、卡点和验收标准问清楚。",
+    stage: "阶段 1 · 找准问题",
+    title: "业务场景诊断",
+    price: "先确认范围",
+    summary: "先理解工作怎么做、卡在哪里，再判断 AI 是否适合介入。",
     items: [
-      "六步诊断：钱的流向、三本账、赚钱七问、经营瓶颈、部门流程、AKA 切口",
-      "老板高管闭门会：对齐 2026 年 AI 边界，以及公司到底要降本还是增收",
-      "CEO / 高管陪跑：按月给方向，不让拍板人自己追资讯",
+      "访谈业务负责人和一线员工，梳理当前流程、重复劳动和例外情况",
+      "确认可用资料、系统权限、数据边界和需要人工把关的环节",
+      "选出一个试点场景，约定参与人、周期和验收指标",
     ],
   },
   {
-    stage: "挖水井",
-    title: "分层培训",
-    price: "2 万起 · 项目制 20–30 万",
-    summary: "客户不再为纯课买单。要听得懂、用得上、能力长在他们身上。",
+    stage: "阶段 2 · 小范围验证",
+    title: "原型与业务试点",
+    price: "按场景评估",
+    summary: "把一个明确任务做成可试用的方案，用真实工作检查效果和风险。",
     items: [
-      "全员入门：让人感到「动动嘴就能让 AI 操控电脑、搭库、做工作流」",
-      "实战带练：问卷 + 半小时访谈后，2～3 天手把手搓知识库和 Skill",
-      "项目制培训：约两个月，线下一天 + 线上答疑交叉，筛出各部门 AI 先锋",
+      "根据资料、知识库、Skill、现有工具或接口组合出最小可用原型",
+      "让实际使用者反复试做真实任务，记录错误、卡点和人工接管情况",
+      "对照试点前的耗时、质量或返工情况，决定继续、调整或停止",
     ],
   },
   {
-    stage: "挖水井",
-    title: "场景定制",
-    price: "1 万 / 场景",
-    summary: "对外叫智能体或数字员工，对内就是知识库 + Skill + 接口。",
+    stage: "阶段 3 · 推广与交接",
+    title: "员工带练与持续支持",
+    price: "按人数与周期评估",
+    summary: "让团队能在日常工作中使用、反馈和维护，而不是只留下一个演示。",
     items: [
-      "千元档内容工厂：生图、文案、发布，替代一个运营岗位",
-      "万元档管理系统：产品表、客户档案、权限和数据治理",
-      "一个场景不超过约 3 个具体诉求，合同写清验收再开工",
-    ],
-  },
-  {
-    stage: "铺水管",
-    title: "标准化产品",
-    price: "可复制标品",
-    summary: "井验证过之后，把服务封装成课件、软件和软硬件套件。",
-    items: [
-      "公开笔记与录播：Awesome FDE 把方法论铺出去，降低获客成本",
-      "标准化课件 / 小程序 / App：入门课给入门讲师，定制课给高级讲师",
-      "软硬件一体机：知识库、工作流、UI 装进一台机器，客户点一点就能用",
-    ],
-  },
-  {
-    stage: "收水费",
-    title: "订阅与运维",
-    price: "月费 / 年框 / Token",
-    summary: "水管铺出去之后，用固定回款养活团队，不再整项目结束再催款。",
-    items: [
-      "席位订阅：企业 Agent / 飞书一类按人头按月或按年收费",
-      "用量计费：Token 中转、API 调用，跟着客户真实使用走",
-      "年框运维：小培训 + 小定制 + 值守，保证每月有水进来",
+      "围绕真实岗位任务做掰开揉碎、问题引导、手把手带练",
+      "交付操作说明、测试记录、异常处理方式和资料维护责任",
+      "试点有效后再讨论扩展到更多员工、场景或部门",
     ],
   },
 ];
 
 const priceBands = [
   {
-    band: "千元档",
+    band: "单场景验证",
     range: "3,000 – 8,000",
     buyer: "门店 / 小团队",
-    sell: "一条能周更的内容生产线",
+    sell: "一项边界清楚的内容或资料处理任务",
     example: "攀岩馆小红书：生图 3K · 图+文 5K · 含自动发布 8K",
-    note: "纯线上就能交付，不必驻场。先连续三轮稳定再结款。",
+    note: "适用于输入资料和验收范围明确的小试点；是否需要驻场另行评估。",
     accent: {
       badge: "border-amber-500/30 bg-amber-500/10 text-amber-200",
       ring: "hover:border-amber-500/30",
@@ -80,12 +58,12 @@ const priceBands = [
     },
   },
   {
-    band: "万元档",
+    band: "部门试点",
     range: "10,000 – 50,000",
     buyer: "中小公司业务部门",
-    sell: "产品库 + 客户档案 + 权限",
-    example: "一个具体场景对应一个智能体、对应一万；同一套方法卖给不同的人",
-    note: "卖的是结构和权限，不是又一个聊天框。上市公司同套可卖到 5–10 万。",
+    sell: "一个业务场景的原型、资料整理与用户试用",
+    example: "例如产品资料问答、客户信息整理或内容生产辅助",
+    note: "投入随资料质量、系统接入、权限要求、测试和培训范围变化。",
     accent: {
       badge: "border-cyan-500/30 bg-cyan-500/10 text-cyan-200",
       ring: "hover:border-cyan-500/30",
@@ -93,12 +71,12 @@ const priceBands = [
     },
   },
   {
-    band: "十万档",
+    band: "多团队项目",
     range: "100,000 – 300,000+",
-    buyer: "集团 / 上市 / 中型公司",
-    sell: "大公司培训 · 中型定制 · 小公司陪跑",
-    example: "项目制培训低于 20 万是「看不起他」；50 万和 5 万常干同一件事",
-    note: "驻场人天算不回来。大公司做培训或顾问，中等做库和 Skill。",
+    buyer: "多部门或较复杂流程的企业",
+    sell: "多轮试点、跨部门培训与流程共建",
+    example: "包含需求诊断、多个场景、权限协调、员工带练和交接",
+    note: "需先确认业务负责人、试点范围、数据条件和验收方式，再估算工作量。",
     accent: {
       badge: "border-violet-500/30 bg-violet-500/10 text-violet-200",
       ring: "hover:border-violet-500/30",
@@ -107,46 +85,23 @@ const priceBands = [
   },
 ];
 
-const revenueMix = [
-  {
-    title: "项目收入",
-    share: "现在主力",
-    desc: "培训、定制、诊断。验证需求、养活团队、攒案例。",
-  },
-  {
-    title: "标品收入",
-    share: "复制杠杆",
-    desc: "课件、录播、一体机。把验证过的服务变成可批发的水管。",
-  },
-  {
-    title: "经常性收入",
-    share: "活下去的水",
-    desc: "订阅、Token、年框运维。预付 + 月费，比整项目尾款更安全。",
-  },
+const cooperationSteps = [
+  { step: "01", title: "梳理现状", body: "访谈业务负责人和一线员工，画出实际流程与主要卡点。" },
+  { step: "02", title: "确定试点", body: "选一个场景，确认数据权限、参与人、周期和试点前基线。" },
+  { step: "03", title: "共同验证", body: "用真实任务试用原型，持续沟通并记录错误、返工和人工接管。" },
+  { step: "04", title: "验收交接", body: "按事先约定的指标验收，完成带练、说明文档和维护责任交接。" },
 ];
 
-const cycle = [
-  { step: "01", title: "获客", body: "自媒体、案例、转介绍。找到有预算的水源。" },
-  { step: "02", title: "销转", body: "三档报价 + 试讲 + 脱敏案例，让拍板人觉得钱值。" },
-  { step: "03", title: "预付", body: "先收一笔。没服务可退，服务了扣成本，不垫款开工。" },
-  { step: "04", title: "交付", body: "AKA 落地：Agent、知识库、Skill，按合同验收。" },
-  { step: "05", title: "回款", body: "阶段款或月费。整项目做完再催，现金账会把人拖死。" },
-  { step: "06", title: "复购", body: "升单顾问、加场景、转订阅。没有复购就要持续获客。" },
+const fitSignals = [
+  "有一个反复发生、能描述清楚的业务问题",
+  "有业务负责人愿意参与，并能安排真实使用者试点",
+  "可以在合规前提下提供必要资料，并共同确认验收指标",
 ];
 
-const books = [
-  {
-    title: "利润账",
-    body: "营收 − 获客和渠道 − 工资法务 − 税和损失。进账 100 万不是纯利。",
-  },
-  {
-    title: "现金账",
-    body: "最伤的是垫款和账期。FDE 活下去靠预付和订阅这两股水。",
-  },
-  {
-    title: "单位经济账",
-    body: "每条产品线、每个客户单独算 ROI。不让头部项目养亏损业务。",
-  },
+const notFitSignals = [
+  "希望一次部署就让全公司完全自动运行",
+  "没有业务负责人，也无法安排员工参与试用",
+  "数据权限、系统条件和错误责任尚未明确",
 ];
 
 export default function BusinessPlanPage() {
@@ -155,53 +110,83 @@ export default function BusinessPlanPage() {
       <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20">
         <section className="mx-auto mb-14 max-w-3xl text-center sm:mb-16">
           <p className="mb-4 text-xs uppercase tracking-[0.22em] text-neutral-500">
-            Business Plan · 2026
+            面向企业老板与业务负责人
           </p>
           <h1 className="mb-5 text-4xl font-bold leading-[1.05] tracking-tight text-neutral-100 sm:text-5xl">
             <span className="bg-gradient-to-br from-neutral-100 via-emerald-100 to-amber-200 bg-clip-text text-transparent">
-              Awesome FDE 商业计划书
+              Awesome FDE 企业 AI 落地服务说明
             </span>
           </h1>
           <p className="text-lg leading-relaxed text-neutral-400 sm:text-xl">
-            帮企业把已经很强、但不落地的 AI，装进业务流程。
+            正在评估 AI 怎么进入业务流程？这里说明我们能提供什么、如何合作，以及怎样从小范围试点开始。
             <span className="mt-2 block text-base text-neutral-500">
-              培训验证需求 · 定制交付结果 · 标品和订阅持续收费
+              不是融资 BP，也不是通用报价单；具体范围与费用以需求诊断和双方合同为准。
             </span>
           </p>
         </section>
 
         <section className="mb-16 rounded-2xl border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 via-neutral-900/40 to-amber-500/10 p-6 sm:p-8">
           <p className="mb-3 text-xs uppercase tracking-wider text-emerald-300/80">
-            一句话模式
+            合作原则
           </p>
           <p className="text-lg leading-relaxed text-neutral-200 sm:text-xl">
-            找到有预算的企业，用诊断和培训把需求挖出来，用知识库 + Skill
-            把一个场景做成能验收的结果，再把验证过的服务标准化成课、软件和年框，按预付和订阅把水收回来。
+            不从买工具开始。先和业务团队找准一个真实问题，再用小范围试点验证效果；有效后再决定是否推广。
           </p>
+        </section>
+
+        <section className="mb-16 border-y border-neutral-800 py-8">
+          <div className="grid gap-8 md:grid-cols-2">
+            <div>
+              <h2 className="mb-4 text-lg font-semibold text-neutral-100">
+                适合这样的企业
+              </h2>
+              <ul className="space-y-3 text-sm leading-relaxed text-neutral-300">
+                {fitSignals.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-emerald-400">+</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h2 className="mb-4 text-lg font-semibold text-neutral-100">
+                暂时不适合的情况
+              </h2>
+              <ul className="space-y-3 text-sm leading-relaxed text-neutral-400">
+                {notFitSignals.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-neutral-600">–</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section className="mb-16">
           <div className="mb-6">
             <h2 className="text-lg font-semibold text-neutral-100">
-              提供的产品与服务
+              可以一起解决什么
             </h2>
             <p className="mt-1 text-sm text-neutral-500">
-              卖的不是某一个模型，而是顾问诊断、能带练的培训、可验收的场景，以及后面的标品和订阅。
+              从一个场景开始。最终交付以双方确认的业务问题和验收范围为准。
             </p>
           </div>
-          <div className="grid gap-4 lg:grid-cols-2">
+          <div className="grid gap-6 border-y border-neutral-800 py-6 lg:grid-cols-3">
             {services.map((service) => (
               <article
                 key={service.title}
-                className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6"
+                className="py-2 lg:border-r lg:border-neutral-800 lg:pr-6 last:lg:border-r-0"
               >
                 <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-                  <span className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2.5 py-0.5 text-[11px] font-medium text-emerald-300">
+                  <span className="text-xs font-medium text-emerald-300">
                     {service.stage}
                   </span>
                   <span className="text-xs text-neutral-500">{service.price}</span>
                 </div>
-                <h3 className="mb-2 text-xl font-semibold text-neutral-100">
+                <h3 className="mb-2 text-lg font-semibold text-neutral-100">
                   {service.title}
                 </h3>
                 <p className="mb-4 text-sm leading-relaxed text-neutral-400">
@@ -220,70 +205,45 @@ export default function BusinessPlanPage() {
           </div>
         </section>
 
-        <section className="mb-16">
-          <div className="mb-6">
-            <h2 className="text-lg font-semibold text-neutral-100">盈利模式</h2>
-            <p className="mt-1 text-sm text-neutral-500">
-              先找到水源，再挖井、铺管、收水费。井还没出水，不投入做 SaaS 和一体机。
+        <section className="mb-16 border-b border-neutral-800 pb-8">
+          <h2 className="mb-4 text-lg font-semibold text-neutral-100">
+            可按需要增加的支持
+          </h2>
+          <div className="grid gap-6 text-sm leading-relaxed text-neutral-400 md:grid-cols-2">
+            <p>
+              <span className="font-medium text-neutral-200">培训与流程共建：</span>
+              面向管理者对齐目标和风险，带员工练习岗位任务，并沉淀可复用的资料、Skill 和操作规范。
             </p>
-          </div>
-          <div className="mb-4 grid gap-4 md:grid-cols-3">
-            {revenueMix.map((item, index) => (
-              <article
-                key={item.title}
-                className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6"
-              >
-                <p className="mb-3 text-xs text-neutral-500">
-                  0{index + 1} · {item.share}
-                </p>
-                <h3 className="mb-2 text-lg font-semibold text-neutral-100">
-                  {item.title}
-                </h3>
-                <p className="text-sm leading-relaxed text-neutral-400">
-                  {item.desc}
-                </p>
-              </article>
-            ))}
-          </div>
-          <div className="overflow-x-auto rounded-2xl border border-neutral-800/80">
-            <table className="w-full min-w-[36rem] text-left text-sm">
-              <thead className="bg-neutral-900/80 text-neutral-300">
-                <tr>
-                  <th className="px-5 py-3 font-medium">阶段</th>
-                  <th className="px-5 py-3 font-medium">卖什么</th>
-                  <th className="px-5 py-3 font-medium">怎么收钱</th>
-                  <th className="px-5 py-3 font-medium">累在哪</th>
-                </tr>
-              </thead>
-              <tbody className="text-neutral-400">
-                <tr className="border-t border-neutral-800">
-                  <td className="px-5 py-3 text-neutral-200">挖水井</td>
-                  <td className="px-5 py-3">诊断、培训、场景定制</td>
-                  <td className="px-5 py-3">一次性项目款 · 人天</td>
-                  <td className="px-5 py-3">人的时间有上限，复合人才难筛</td>
-                </tr>
-                <tr className="border-t border-neutral-800 bg-neutral-950/40">
-                  <td className="px-5 py-3 text-neutral-200">铺水管</td>
-                  <td className="px-5 py-3">课件、软件、一体机</td>
-                  <td className="px-5 py-3">标品销售 · 许可</td>
-                  <td className="px-5 py-3">单价往往更低，但能批量</td>
-                </tr>
-                <tr className="border-t border-neutral-800">
-                  <td className="px-5 py-3 text-neutral-200">收水费</td>
-                  <td className="px-5 py-3">席位、Token、年框运维</td>
-                  <td className="px-5 py-3">订阅 · 按量 · 年框</td>
-                  <td className="px-5 py-3">要先把管铺出去，再谈躺收</td>
-                </tr>
-              </tbody>
-            </table>
+            <p>
+              <span className="font-medium text-neutral-200">上线后维护：</span>
+              按约定频率检查运行状态、资料更新和用户反馈；响应时间、服务范围与费用事先写入协议。
+            </p>
           </div>
         </section>
 
         <section className="mb-16">
           <div className="mb-6">
-            <h2 className="text-lg font-semibold text-neutral-100">价格带</h2>
+            <h2 className="text-lg font-semibold text-neutral-100">合作怎么推进</h2>
             <p className="mt-1 text-sm text-neutral-500">
-              技术栈可以一样，单子差一个零。差在买家付钱能力和你把价值讲清楚的能力。
+              每一步都和业务团队一起确认，试点无效时可以停下或调整，不默认扩成大项目。
+            </p>
+          </div>
+          <div className="grid gap-6 border-y border-neutral-800 py-6 sm:grid-cols-2 lg:grid-cols-4">
+            {cooperationSteps.map((step) => (
+              <article key={step.step}>
+                <p className="mb-3 text-xs font-medium text-emerald-300">{step.step}</p>
+                <h3 className="mb-2 text-base font-semibold text-neutral-100">{step.title}</h3>
+                <p className="text-sm leading-relaxed text-neutral-400">{step.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <div className="mb-6">
+            <h2 className="text-lg font-semibold text-neutral-100">参考投入与范围</h2>
+            <p className="mt-1 text-sm text-neutral-500">
+              以下区间来自训练营案例，仅帮助判断投入量级。正式报价前会先确认流程、系统、资料、参与人数和验收标准。
             </p>
           </div>
           <div className="grid gap-4 md:grid-cols-3">
@@ -317,78 +277,36 @@ export default function BusinessPlanPage() {
           </div>
         </section>
 
-        <section className="mb-16">
-          <div className="mb-6">
-            <h2 className="text-lg font-semibold text-neutral-100">赚钱循环</h2>
-            <p className="mt-1 text-sm text-neutral-500">
-              断一环就消亡。FDE 重人力，预付和月费比「做完再催」更重要。
-            </p>
-          </div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {cycle.map((item) => (
-              <article
-                key={item.step}
-                className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-5"
-              >
-                <p className="mb-2 text-xs tracking-wider text-emerald-300/80">
-                  {item.step}
-                </p>
-                <h3 className="mb-1.5 text-base font-semibold text-neutral-100">
-                  {item.title}
-                </h3>
-                <p className="text-sm leading-relaxed text-neutral-400">
-                  {item.body}
-                </p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-16">
-          <div className="mb-6">
-            <h2 className="text-lg font-semibold text-neutral-100">
-              老板至少看三本账
+        <section className="mb-16 grid gap-10 border-y border-neutral-800 py-8 md:grid-cols-2">
+          <div>
+            <h2 className="mb-4 text-lg font-semibold text-neutral-100">
+              怎么判断试点有效
             </h2>
-            <p className="mt-1 text-sm text-neutral-500">
-              算账是指挥公司活下去，不是给会计交差。
-            </p>
+            <ul className="space-y-3 text-sm leading-relaxed text-neutral-300">
+              <li>开始前记录基线：处理时长、错误率、返工量或等待时间。</li>
+              <li>试点中用员工真实任务测试，记录质量、人工复核和异常接管。</li>
+              <li>结束时按同一口径比较，再由业务负责人决定扩大、调整或停止。</li>
+            </ul>
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {books.map((book) => (
-              <article
-                key={book.title}
-                className="rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6"
-              >
-                <h3 className="mb-2 text-lg font-semibold text-neutral-100">
-                  {book.title}
-                </h3>
-                <p className="text-sm leading-relaxed text-neutral-400">
-                  {book.body}
-                </p>
-              </article>
-            ))}
+          <div>
+            <h2 className="mb-4 text-lg font-semibold text-neutral-100">
+              开始沟通前，准备这些信息
+            </h2>
+            <ul className="space-y-3 text-sm leading-relaxed text-neutral-400">
+              <li>一项具体、反复发生的工作任务，以及现在的处理步骤。</li>
+              <li>参与试点的业务负责人和一线员工。</li>
+              <li>可提供资料的范围、系统限制和必须遵守的数据要求。</li>
+            </ul>
           </div>
-        </section>
-
-        <section className="mb-16 rounded-2xl border border-neutral-800/80 bg-neutral-900/40 p-6 sm:p-8">
-          <h2 className="mb-3 text-lg font-semibold text-neutral-100">
-            现阶段不做什么
-          </h2>
-          <ul className="space-y-2 text-sm leading-relaxed text-neutral-400">
-            <li>井还没出水，就投入做通用 SaaS 或一体机。</li>
-            <li>只卖八十万咨询方案，不保证学会、用上。</li>
-            <li>整项目做完再收款；驻场陪跑把人天算进去必亏。</li>
-            <li>文档很少还强卖自研 RAG；或把飞书直接转手，客户何必经过你。</li>
-          </ul>
         </section>
 
         <section className="flex flex-col items-start justify-between gap-4 rounded-2xl border border-neutral-800/80 bg-gradient-to-br from-neutral-900/80 via-neutral-900/40 to-neutral-900/80 p-6 sm:flex-row sm:items-center sm:p-8">
           <div>
             <h2 className="mb-1 text-lg font-semibold text-neutral-100">
-              想看方法怎么拆开
+              下一步：先判断一个场景值不值得试
             </h2>
             <p className="text-sm text-neutral-500">
-              商业课讲模式，案例课讲报价和交付。计划书只负责把产品、服务和收钱方式放在一张图上。
+              带着具体流程、当前卡点和参与人开始沟通；先把问题和验收说清，再决定要不要做原型。
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -396,19 +314,19 @@ export default function BusinessPlanPage() {
               href="/basics/courses/fundamentals/business-model"
               className="rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-sm text-amber-200 transition-colors hover:border-amber-400/50"
             >
-              商业模式课 →
+              查看商业诊断方法 →
             </Link>
             <Link
               href="/cases/courses/delivery/xiaohongshu-case"
               className="rounded-lg border border-violet-500/30 bg-violet-500/10 px-4 py-2 text-sm text-violet-200 transition-colors hover:border-violet-400/50"
             >
-              价格带案例 →
+              查看场景交付案例 →
             </Link>
           </div>
         </section>
 
         <footer className="mt-20 text-center text-xs text-neutral-600 sm:mt-28">
-          <p>数字来自第一期训练营笔记，用作方法说明，不是对任何客户的报价承诺。</p>
+          <p>价格区间取自第一期训练营案例，仅供理解投入量级；具体交付与费用以诊断结果和双方合同为准。</p>
         </footer>
       </div>
     </main>

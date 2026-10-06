@@ -30,10 +30,18 @@ const items = [
   },
   {
     key: "business",
-    label: "商业计划",
+    label: "企业 AI 服务",
     href: "/business",
     active:
       "border-emerald-500/40 bg-emerald-500/10 text-emerald-200 hover:border-emerald-400/60 hover:bg-emerald-500/15",
+    idle: "border-neutral-800 bg-neutral-900/40 text-neutral-400 hover:border-neutral-700 hover:text-neutral-200",
+  },
+  {
+    key: "qa",
+    label: "Q&A",
+    href: "/grill",
+    active:
+      "border-rose-500/40 bg-rose-500/10 text-rose-200 hover:border-rose-400/60 hover:bg-rose-500/15",
     idle: "border-neutral-800 bg-neutral-900/40 text-neutral-400 hover:border-neutral-700 hover:text-neutral-200",
   },
 ] as const;
