@@ -1,0 +1,23 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="ten-revenue-models" name="十种收钱方式">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="十种收钱方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="一次性收费" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="按量计费" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane2" value="许可/版权/租金" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="390" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane3" value="项目分成" style="swimlane;horizontal=0;startSize=110;fillColor=#fce4ec;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="540" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane4" value="人天计费" style="swimlane;horizontal=0;startSize=110;fillColor=#fff0e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="690" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane5" value="订阅费" style="swimlane;horizontal=0;startSize=110;fillColor=#e1d5e7;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="840" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane6" value="会员费" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="990" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane7" value="佣金/抽成" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="1140" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane8" value="广告/线索" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="1290" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane9" value="利差/保费" style="swimlane;horizontal=0;startSize=110;fillColor=#fce4ec;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="1440" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="hub" value="企业现金池" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-25-34.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

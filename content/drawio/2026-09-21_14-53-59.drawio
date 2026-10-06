@@ -1,0 +1,18 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="fde-business-model" name="FDE 怎么搭商业模式？">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="320" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="FDE 怎么搭商业模式？" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="40" y="10" width="820" height="40" as="geometry"/></mxCell>
+        <mxCell id="subtitle" value="把企业需求逐步建设成可持续供水系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="48" width="820" height="30" as="geometry"/></mxCell>
+        <mxCell id="n0" value="挖水井 · 服务&amp;#xa;企业 AI 内训 · 智能体定制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="n1" value="铺水管 · 产品&amp;#xa;标准化培训 · SaaS · 一体机" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="220" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="n2" value="收水费 · 持续收入&amp;#xa;Token / 月费 / 年费 / 人头订阅" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="400" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="n0" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_14-53-59.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="292" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

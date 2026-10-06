@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="trade-secret-algorithm-code" name="算法、代码、训练数据库，都可能是商业秘密">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="320" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="算法、代码、训练数据库，都可能是商业秘密" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="40" y="10" width="820" height="40" as="geometry"/></mxCell>
+        <mxCell id="subtitle" value="（2023）最高法知民终 1503 号" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="48" width="820" height="30" as="geometry"/></mxCell>
+        <mxCell id="n0" value="前员工接触&amp;#xa;指尖识别算法与图片数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="n1" value="离职后短期推出&amp;#xa;高度近似产品" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="220" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="n2" value="商业秘密保护&amp;#xa;停止披露、使用并销毁载体" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="400" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="n3" value="裁判结果&amp;#xa;连带赔偿 50 万元" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="580" y="100" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="n0" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="人员权限 | 离职交接 | 下载日志 | 研发时间线" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="230" width="820" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-51-53.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="292" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

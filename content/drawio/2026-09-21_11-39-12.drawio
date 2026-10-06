@@ -1,0 +1,26 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="lightweight-data-governance" name="轻量级数据治理：先跑通，再升级">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1030" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="轻量级数据治理：先跑通，再升级" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="740" height="40" as="geometry"/></mxCell>
+        <mxCell id="s0" value="⑦ 运营&amp;#xa;→ 定时更新、记录 Log、备份、Git 版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="790" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1" value="⑥ 接入&amp;#xa;→ 知识库 → Skill → Agent → IM 手机对话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="680" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s2" value="⑤ 治理&amp;#xa;→ 清洗、结构化、分类、权限分级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="570" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3" value="④ 补缺&amp;#xa;→ 还缺哪些关键数据？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="460" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s4" value="③ 筛选&amp;#xa;→ 哪些真的相关？无关的先拿掉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="350" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s5" value="② 盘点&amp;#xa;→ 手头有哪些知识和数据？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="240" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s6" value="① 先问&amp;#xa;→ 到底要解决什么问题？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="130" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="em0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s1" target="s0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s2" target="s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s3" target="s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s4" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s5" target="s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s6" target="s5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="终点：知识服务（可对话、可交付）" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="940" width="820" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-39-12.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="1002" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

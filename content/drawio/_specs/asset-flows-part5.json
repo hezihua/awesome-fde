@@ -1,0 +1,546 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-23-07.png",
+    "output": "2026-09-21_15-23-07",
+    "id": "six-business-types",
+    "title": "六类生意",
+    "layout": "lanes_hub_tiers",
+    "hub": "平台/渠道：卖中介+流量",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "商品",
+        "steps": [
+          "卖所有权"
+        ]
+      },
+      {
+        "title": "专业服务",
+        "steps": [
+          "卖时间+结果"
+        ]
+      },
+      {
+        "title": "软件/内容/知识",
+        "steps": [
+          "卖使用权+复制权"
+        ]
+      },
+      {
+        "title": "资产/租赁",
+        "steps": [
+          "卖钱的时间+风险"
+        ]
+      },
+      {
+        "title": "连锁加盟",
+        "steps": [
+          "卖可复制的经营系统"
+        ]
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-25-34.png",
+    "output": "2026-09-21_15-25-34",
+    "id": "ten-revenue-models",
+    "title": "十种收钱方式",
+    "layout": "lanes_hub_tiers",
+    "hub": "企业现金池",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "一次性收费",
+        "steps": []
+      },
+      {
+        "title": "按量计费",
+        "steps": []
+      },
+      {
+        "title": "许可/版权/租金",
+        "steps": []
+      },
+      {
+        "title": "项目分成",
+        "steps": []
+      },
+      {
+        "title": "人天计费",
+        "steps": []
+      },
+      {
+        "title": "订阅费",
+        "steps": []
+      },
+      {
+        "title": "会员费",
+        "steps": []
+      },
+      {
+        "title": "佣金/抽成",
+        "steps": []
+      },
+      {
+        "title": "广告/线索",
+        "steps": []
+      },
+      {
+        "title": "利差/保费",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-27-00.png",
+    "output": "2026-09-21_15-27-00",
+    "id": "six-profit-sources",
+    "title": "六种利润来源",
+    "layout": "lanes_hub_tiers",
+    "hub": "利润湖",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "抬价",
+        "steps": [
+          "品牌、案例与稀缺性"
+        ]
+      },
+      {
+        "title": "成本控制",
+        "steps": [
+          "供应链、技术、管理"
+        ]
+      },
+      {
+        "title": "周转",
+        "steps": [
+          "翻台率、库存周转、资金周转"
+        ]
+      },
+      {
+        "title": "规模",
+        "steps": [
+          "标准化复制，边际成本下降"
+        ]
+      },
+      {
+        "title": "流量",
+        "steps": [
+          "渠道、平台、注意力入口"
+        ]
+      },
+      {
+        "title": "差价",
+        "steps": [
+          "时间差、信息差、汇率差、地域差"
+        ]
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-29-56.png",
+    "output": "2026-09-21_15-29-56",
+    "id": "money-model-human-insight",
+    "title": "赚钱模式，本质是人心洞察",
+    "layout": "split",
+    "subtitle": "过去和现在的商业模式，大多围绕人的心智旅程建立；未来会有越来越多的商业模式围绕 AI 建立。",
+    "left": [
+      "人的购买旅程",
+      "心动（欲望与意图）",
+      "逛店浏览",
+      "线上比价选择",
+      "刷卡支付",
+      "收货开箱"
+    ],
+    "right": [
+      "AI Agent 自主采购",
+      "AI 自主调研与选品",
+      "授权支付",
+      "闸机验卡 · 自动发货"
+    ],
+    "center": "因为 AI 也有信用卡了。"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-30-11.png",
+    "output": "2026-09-21_15-30-11",
+    "id": "client-business-six-step-framework",
+    "title": "给客户梳理经营的六步框架",
+    "layout": "lanes_hub_tiers",
+    "hub": "FDE 顾问 · 诊断原则：看全局 · 找根因 · 定切入",
+    "lanes": [
+      {
+        "title": "1 钱的流向图",
+        "steps": [
+          "来源：客户付款、银行贷款、股东投入",
+          "去向：采购、薪酬、运营、税费",
+          "留存：再投资、留存收益、偿还债务"
+        ]
+      },
+      {
+        "title": "2 三本账分析",
+        "steps": [
+          "利润账：收入 - 成本 = 利润",
+          "现金账：流入 - 流出 = 净现金",
+          "单位经济账：单位利润结构"
+        ]
+      },
+      {
+        "title": "3 赚钱七问",
+        "steps": [
+          "谁付钱 → 客户",
+          "何为付钱 → 满足需求/解决痛点",
+          "卖什么 → 产品/服务",
+          "怎么收 → 收款方式",
+          "怎么交 → 交付履约",
+          "利润在哪 → 利润来源",
+          "如何持续 → 持续增长"
+        ]
+      },
+      {
+        "title": "4 经营瓶颈",
+        "steps": [
+          "增长和经营卡在哪里？"
+        ]
+      },
+      {
+        "title": "5 流程卡点",
+        "steps": [
+          "市场→销售→计划→采购→生产→仓储→财务→客服",
+          "痛点：信息不准、审批太慢、等待物料、质量返工、库存积压、回款延迟、响应滞后"
+        ]
+      },
+      {
+        "title": "6 AI 切入点",
+        "steps": [
+          "AI 从哪里切入，才能真正产生价值？",
+          "AI 改造点 ← 瓶颈与流程卡点"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-36-48.png",
+    "output": "2026-09-21_15-36-48",
+    "id": "legal-compliance-session6",
+    "title": "法律合规",
+    "layout": "split",
+    "subtitle": "FDE实战训练营 | 第6节 · 钱要赚，但别不小心进去了",
+    "left": [
+      "技术工作侧",
+      "服务器与数据库",
+      "代码与业务文档",
+      "合同与数据安全"
+    ],
+    "right": [
+      "法律后果侧",
+      "法庭与法锤",
+      "合规红线与警告",
+      "越界即承担法律责任"
+    ],
+    "center": "法律合规",
+    "footer": "曲率出逃"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-37-54.png",
+    "output": "2026-09-21_15-37-54",
+    "id": "wechat-opportunity-compliance",
+    "title": "微信商机分析：技术能做，不等于可以随便做",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "自动读取",
+        "sub": "聊天与消息"
+      },
+      {
+        "label": "自动分析",
+        "sub": "商机识别"
+      },
+      {
+        "label": "自动回复",
+        "sub": "触达客户"
+      }
+    ],
+    "footer": "风险：平台规则 · 账号封禁 · 个人信息 · 越权控制 · 黑灰产边界 | 优先走企业微信开放能力与合法接口"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-41-22.png",
+    "output": "2026-09-21_15-41-22",
+    "id": "crm-personal-information",
+    "title": "CRM装的不是‘线索’，是个人信息",
+    "layout": "chain",
+    "subtitle": "姓名 | 电话 | 消费记录 | 画像标签 | 聊天记录",
+    "nodes": [
+      {
+        "label": "告知目的与范围",
+        "sub": ""
+      },
+      {
+        "label": "取得合法授权",
+        "sub": ""
+      },
+      {
+        "label": "最小必要",
+        "sub": ""
+      },
+      {
+        "label": "权限分级",
+        "sub": ""
+      },
+      {
+        "label": "到期删除",
+        "sub": ""
+      }
+    ],
+    "footer": "敏感个人信息、向第三方提供等情形，需要更严格的告知与单独同意"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-43-29.png",
+    "output": "2026-09-21_15-43-29",
+    "id": "cross-border-network-compliance",
+    "title": "跨境联网：不要把‘能连上’当成‘合规’",
+    "layout": "split",
+    "subtitle": "不提供、不销售、不转租未经许可的跨境网络通道",
+    "left": [
+      "办公大楼 · 内部办公网络",
+      "合规路径：经许可的跨境通道",
+      "向依法有资质的电信经营者租用办公自用国际专线"
+    ],
+    "right": [
+      "跨境网络 / 全球互联网",
+      "禁止：非法转租或个人 VPN 等非合规出口"
+    ],
+    "center": "合规网关",
+    "footer": "不存在笼统的「个人使用当然合法」安全港"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-43-56.png",
+    "output": "2026-09-21_15-43-56",
+    "id": "knowledge-base-data-responsibility",
+    "title": "知识库首先是数据责任，不只是技术项目",
+    "layout": "cycle",
+    "subtitle": "客户授权 | 收集范围清楚 | 全程保密留痕 | 退出返还删除",
+    "center": "数据清单 + 授权书 + 保密协议 + 操作日志",
+    "quadrants": [
+      {
+        "title": "客户授权",
+        "body": "取得客户明确授权后再收集与使用"
+      },
+      {
+        "title": "收集范围清楚",
+        "body": "只收集业务必要范围内的数据"
+      },
+      {
+        "title": "全程保密留痕",
+        "body": "访问与操作可追溯、可审计"
+      },
+      {
+        "title": "退出返还删除",
+        "body": "项目结束按约定返还或删除"
+      }
+    ],
+    "footer": "谁能看、看什么、用多久、能否上传模型，必须写清楚"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-46-00.png",
+    "output": "2026-09-21_15-46-00",
+    "id": "court-ruling-precedents",
+    "title": "这些不是‘理论风险’，法院已经判过",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "AI图片",
+        "sub": "500元"
+      },
+      {
+        "label": "微博API",
+        "sub": "2000万元"
+      },
+      {
+        "label": "数据搪运",
+        "sub": "500万元"
+      },
+      {
+        "label": "算法秘密",
+        "sub": "50万元"
+      },
+      {
+        "label": "GPL开源",
+        "sub": "50万元"
+      },
+      {
+        "label": "源码瑕疵",
+        "sub": "可解除合同"
+      }
+    ],
+    "footer": "金额代表具体案件结果，不等于其他案件的固定价码"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-46-28.png",
+    "output": "2026-09-21_15-46-28",
+    "id": "ai-creation-infringement-liability",
+    "title": "AI 参与创作，也不能把侵权甩给AI",
+    "layout": "split",
+    "left": [
+      "AI 文生图创作界面",
+      "多轮提示词 · 参数调整 · 选择修改"
+    ],
+    "right": [
+      "《春风送来了温柔》AI文生图案",
+      "?2023?京0491民初11279号",
+      "赔礼道歉 + 赔偿 500 元"
+    ],
+    "center": "多轮提示词 + 参数调整 + 选择修改 = 人的智力投入",
+    "footer": "保存提示词、参数、版本、原图与修改记录"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-48-14.png",
+    "output": "2026-09-21_15-48-14",
+    "id": "ai-authorship-documentation",
+    "title": "只说‘这是我用AI做的’，还不够",
+    "layout": "chain",
+    "subtitle": "上海提示词案 (2025) 沁0101民列14775号：普通指令集合，不当然构成作品 | 「蝶蝶椅」案：简单提示词 + 无完整流程记录，图片未被认定为作品",
+    "nodes": [
+      {
+        "label": "保存构思",
+        "sub": ""
+      },
+      {
+        "label": "提示词迭代",
+        "sub": ""
+      },
+      {
+        "label": "参数",
+        "sub": ""
+      },
+      {
+        "label": "选图理由",
+        "sub": ""
+      },
+      {
+        "label": "人工修改",
+        "sub": ""
+      },
+      {
+        "label": "发布时间",
+        "sub": ""
+      }
+    ],
+    "footer": "保存构思、提示词迭代、参数、选图理由、人工修改、发布时间"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-50-45.png",
+    "output": "2026-09-21_15-50-45",
+    "id": "api-scraping-unauthorized",
+    "title": "有API接口，也不等于你有权抓",
+    "layout": "chain",
+    "subtitle": "一审：(2020) 粤03民列4626号 · 二审：(2022) 粤民终4541号",
+    "nodes": [
+      {
+        "label": "未经授权调用后台 API",
+        "sub": "抓取、存储并出售数据"
+      },
+      {
+        "label": "累计调用",
+        "sub": "超过 21.79 亿次"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "构成不正当竞争 | 判赔 2000 万元"
+      }
+    ],
+    "footer": "接口存在 ≠ 数据授权"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-51-17.png",
+    "output": "2026-09-21_15-51-17",
+    "id": "data-relocation-unfair-competition",
+    "title": "搪走的不是几条内容，而是别人的数据经营成果",
+    "layout": "split",
+    "left": [
+      "指导性案例262号",
+      "一审：(2019) 京0108民列35902号",
+      "二审：(2021) 京73民终1011号",
+      "构成不正当竞争 | 判赔500万元"
+    ],
+    "right": [
+      "原平台数据库 → 搪运后新平台数据库",
+      "搪运 50,392 个短视频",
+      "含平台专有代码、昵称头像和评论数据"
+    ],
+    "center": "整库搪运",
+    "footer": "知识库不能整库搪运"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-51-53.png",
+    "output": "2026-09-21_15-51-53",
+    "id": "trade-secret-algorithm-code",
+    "title": "算法、代码、训练数据库，都可能是商业秘密",
+    "layout": "chain",
+    "subtitle": "（2023）最高法知民终 1503 号",
+    "nodes": [
+      {
+        "label": "前员工接触",
+        "sub": "指尖识别算法与图片数据库"
+      },
+      {
+        "label": "离职后短期推出",
+        "sub": "高度近似产品"
+      },
+      {
+        "label": "商业秘密保护",
+        "sub": "停止披露、使用并销毁载体"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "连带赔偿 50 万元"
+      }
+    ],
+    "footer": "人员权限 | 离职交接 | 下载日志 | 研发时间线"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-53-07.png",
+    "output": "2026-09-21_15-53-07",
+    "id": "software-delivery-legal-compliance",
+    "title": "交付了能跑的软件，不等于完成了合法交付",
+    "layout": "split",
+    "left": [
+      "可运行软件（电商站点等）",
+      "源码与权利链条",
+      "依赖清单 · 许可证清单 · 源码扫描"
+    ],
+    "right": [
+      "人民法院案例库：2023-13-2-146-001",
+      "一审：(2020) 鲁01民列3195号",
+      "二审：(2021) 最高法知民终677号",
+      "交付源码高度疑似来自第三方，无法证明权利来源",
+      "客户有权解除合同 | 返还已付款 | 赔偿利息损失"
+    ],
+    "center": "权利链条断裂",
+    "footer": "依赖清单 | 许可证清单 | 源码扫描 | 权利瑕疵担保"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-53-29.png",
+    "output": "2026-09-21_15-53-29",
+    "id": "open-source-gpl-commercial",
+    "title": "开源不等于“闭源拿去卖”",
+    "layout": "chain",
+    "subtitle": "(2019) 粤73知民列207号 · 使用 GPL V3 项目开发商业 App，却未按协议开放渲生源码",
+    "nodes": [
+      {
+        "label": "GPL V3 开源项目",
+        "sub": "源码与许可义务"
+      },
+      {
+        "label": "闭源商用 App",
+        "sub": "未开放渲生源码 · 许可链断裂"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "授权自动终止 | 构成侵权 | 判赔50万元"
+      }
+    ],
+    "footer": "商用前审查许可证 | GPL · AGPL · Apache · MIT 义务不同"
+  }
+]

@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="company-two-concerns" name="公司关心的两件事">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="公司关心的两件事" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="740" height="40" as="geometry"/></mxCell>
+        <mxCell id="subtitle" value="所有公司都建立在某一种商业模式上；公司是一种商业生命体。" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="80" y="48" width="740" height="28" as="geometry"/></mxCell>
+        <mxCell id="s0" value="增长&amp;#xa;→ 我能不能多赚钱？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="260" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1" value="可持续&amp;#xa;→ 我能不能持续赚钱？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="150" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="em0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s1" target="s0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-13-38.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="372" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

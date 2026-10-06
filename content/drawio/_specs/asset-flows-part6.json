@@ -1,0 +1,507 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-54-27.png",
+    "output": "2026-09-21_15-54-27",
+    "id": "algorithm-filing-not-universal",
+    "title": "算法备案，不是所有AI项目一刀切",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "第一关",
+        "sub": "是否面向境内公众？"
+      },
+      {
+        "label": "第二关",
+        "sub": "算法推荐 | 深度合成 | 生成式AI服务"
+      },
+      {
+        "label": "第三关",
+        "sub": "是否具有舆论属性或社会动员能力？"
+      },
+      {
+        "label": "监管窗口",
+        "sub": "可能义务：算法备案 | 安全评估 | 模型备案/登记 | 备案号公示 | 生成内容标识"
+      }
+    ],
+    "footer": "纯内部工具通常不直接等同公众服务；逐关判断，而非一刀切"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-54-50.png",
+    "output": "2026-09-21_15-54-50",
+    "id": "non-compete-not-binary",
+    "title": "竞业限制不是「签了就都有效」，也不是「没给钱就自动无效」",
+    "layout": "cycle",
+    "center": "公司秘密 ↔ 员工择业权",
+    "quadrants": [
+      {
+        "title": "适用对象",
+        "body": "高管 | 高级技术人员 | 其他真正负有保密义务的人"
+      },
+      {
+        "title": "离职后竞业",
+        "body": "最长 2 年，原则上按月支付经济补偿"
+      },
+      {
+        "title": "解除条件",
+        "body": "单位原因连续 3 个月未付，劳动者可请求解除"
+      },
+      {
+        "title": "在职竞业",
+        "body": "不因未另付补偿当然无效"
+      }
+    ],
+    "footer": "先判断他到底接触了什么秘密；连续 3 个月未付可解锁"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-57-34.png",
+    "output": "2026-09-21_15-57-34",
+    "id": "china-ai-compliance-building",
+    "title": "中国大陆 AI 合规，是一座四层建筑",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "第一层 基础权利",
+        "label": "民法典 | 著作权法 | 劳动合同法 | 反不正当竞争"
+      },
+      {
+        "trigger": "第二层 网络与数据",
+        "label": "网络安全法 | 数据安全法 | 个人信息保护法 | 网络数据安全管理条例"
+      },
+      {
+        "trigger": "第三层 AI 专项",
+        "label": "算法推荐 | 深度合成 | 生成式 AI | 生成内容标识 | 拟人化互动"
+      },
+      {
+        "trigger": "第四层 行业规则",
+        "label": "金融 | 医疗 | 教育 | 汽车 | 平台规则与国家标准"
+      }
+    ],
+    "footer": "先看业务和数据，再判断落在哪一层"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-58-43.png",
+    "output": "2026-09-21_15-58-43",
+    "id": "compliance-six-project-nodes",
+    "title": "把合规嵌进项目六个节点",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "售前",
+        "sub": "只拿最小脱敏样本"
+      },
+      {
+        "label": "采集",
+        "sub": "数据清单 + 授权边界 + 责任分工"
+      },
+      {
+        "label": "知识库",
+        "sub": "客户现场/专机 + 物理隔离 + 权限分级 + 模型留存说明"
+      },
+      {
+        "label": "开发",
+        "sub": "依赖与源码审查 + 许可证台账"
+      },
+      {
+        "label": "上线",
+        "sub": "能力边界提示 + 人工复核/转人工 + 日志与应急停止"
+      },
+      {
+        "label": "退出",
+        "sub": "返还/删除数据 + 撤销权限 + 签字确认 + 案例彻底脱敏"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-08-08.png",
+    "output": "2026-09-21_16-08-08",
+    "id": "agent-permissions-and-guardrails",
+    "title": "Agent要干活：既要给权限，也要装护栏",
+    "layout": "split",
+    "left": [
+      "放开能力 · 加速",
+      "Agent Browser/CDP：控制 Chrome 浏览器",
+      "Computer Use：看屏幕、点鼠标、敲键盘",
+      "Bypass Permissions：跳过权限确认（危险驾驶模式）"
+    ],
+    "right": [
+      "加上护栏 · 刹车",
+      "Workspace：限定工作目录",
+      "Sandbox：限制文件、网络与进程",
+      "Docker：隔离运行环境",
+      "Hook：强制拦截危险动作"
+    ],
+    "center": "能力 ↔ 护栏",
+    "footer": "默认最小权限，按需逐级放开；危险模式只在隔离环境中短时使用"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-10-19.png",
+    "output": "2026-09-21_16-10-19",
+    "id": "model-harness-agent",
+    "title": "它能干活，但怎样安全、稳定、可重复？",
+    "layout": "split",
+    "subtitle": "Model 模型 + Harness 工程框架 = Agent",
+    "left": [
+      "工程护栏：层层防护，稳固可靠",
+      "标准接口：松耦合，可扩展",
+      "编排有序：自动协同，可追踪"
+    ],
+    "right": [
+      "① 接口：API / CLI / MCP / Tool Calling / Plugin",
+      "② 上下文：Session / Memory / 知识库 / 数据库",
+      "③ 工作编排：Skill / Workflow / Sub-agent / Hook"
+    ],
+    "center": "模型引擎",
+    "footer": "Harness 不是一个单独工具，而是模型周围的一整套工程护栏与工作系统"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-10-55.png",
+    "output": "2026-09-21_16-10-55",
+    "id": "memory-system-context",
+    "title": "上下文越来越多，不想每次都重新喂怎么办？",
+    "layout": "chain",
+    "subtitle": "Memory System 记忆系统：把信息保存、整理、检索，并在需要时放回上下文",
+    "nodes": [
+      {
+        "label": "保存",
+        "sub": "从工作现场抽取文档与关系"
+      },
+      {
+        "label": "整理",
+        "sub": "分类上架 · WikiLink 式关联"
+      },
+      {
+        "label": "入库",
+        "sub": "外挂大脑：知识库 + 数据库"
+      },
+      {
+        "label": "检索并回填",
+        "sub": "按需取回，放回当前上下文"
+      }
+    ],
+    "footer": "Markdown | WikiLink 双向链接 | RAG | 知识图谱 | Ontology 本体论"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-11-34.png",
+    "output": "2026-09-21_16-11-34",
+    "id": "automation-to-loop",
+    "title": "AI知道怎么干之后，能不能自己持续干？",
+    "layout": "chain",
+    "subtitle": "RPA → Workflow → Skill → Cron定时任务 → Goal目标 → Loop循獭",
+    "nodes": [
+      {
+        "label": "RPA",
+        "sub": "固定步骤"
+      },
+      {
+        "label": "Workflow",
+        "sub": "节点编排"
+      },
+      {
+        "label": "Skill",
+        "sub": "自然语言 SOP"
+      },
+      {
+        "label": "Cron",
+        "sub": "定时触发"
+      },
+      {
+        "label": "Goal",
+        "sub": "持续目标"
+      },
+      {
+        "label": "Loop",
+        "sub": "反馈 / 验收后循獭"
+      }
+    ],
+    "footer": "Skill + Goal + Cron + 反馈/验收 = Loop；没有反馈与验收只是定时重复"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-11-47.png",
+    "output": "2026-09-21_16-11-47",
+    "id": "agentic-engineering-productize",
+    "title": "把这些能力封装成产品，能不能拿去卖？",
+    "layout": "chain",
+    "subtitle": "Agentic Engineering 智能体工程",
+    "nodes": [
+      {
+        "label": "Vibe Coding",
+        "sub": "自然语言快速做出约 60 分的 Demo"
+      },
+      {
+        "label": "工程化产线",
+        "sub": "架构 · 测试 · 权限 · 监控 · 评测 · 运维"
+      },
+      {
+        "label": "稳定可交付",
+        "sub": "通过验收的服务器级产品"
+      },
+      {
+        "label": "部署形态",
+        "sub": "本地模型 + 一体机 | 小程序 / 云服务器 24 小时运行"
+      }
+    ],
+    "footer": "Demo 容易；做到 90 分并长期稳定，靠的是工程"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-13-12.png",
+    "output": "2026-09-21_16-13-12",
+    "id": "im-agent-on-call",
+    "title": "最后一步：让 Agent 像一个同事一样随叫随到",
+    "layout": "split",
+    "left": [
+      "飞书 | 微信 | 企业微信 | 钉钉",
+      "在熟悉的聊天与办公软件里，像发消息一样调用 Agent",
+      "理解需求 → 规划步骤 → 调用工具 → 生成结果"
+    ],
+    "right": [
+      "知识库：书架与文件",
+      "网页浏览：浏览器与网页",
+      "自动化：齿轮与流程"
+    ],
+    "center": "IM 入口 + Agent + 自动化",
+    "footer": "Token 是模型处理文本的基本单位与常见计费尺子；实际成本由模型单价、输入输出 Token、调用频率和工具执行共同决定"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-16-44.png",
+    "output": "2026-09-21_16-16-44",
+    "id": "kb-tech-map-review",
+    "title": "知识库技术地图回顾",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "地基",
+        "label": "目录分类 | 标签 | 元数据"
+      },
+      {
+        "trigger": "基础整理",
+        "label": "Markdown 清洗 | WikiLink 双向链接 | MOC 导航"
+      },
+      {
+        "trigger": "检索",
+        "label": "Grep 关键词检索 | RAG 向量检索 | 混合检索"
+      },
+      {
+        "trigger": "知识关联",
+        "label": "知识图谱 | 本体 Ontology"
+      }
+    ],
+    "footer": "先把地基搭稳，再按问题升级技术"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-22-58.png",
+    "output": "2026-09-21_16-22-58",
+    "id": "business-problem-inventory",
+    "title": "先做业务问题盘点",
+    "layout": "cycle",
+    "center": "选题 · 文案 · 剪辑 · 拍摄 · 运营",
+    "quadrants": [
+      {
+        "title": "公司有哪些岗位？",
+        "body": "从组织角色出发，而非从文件夹出发"
+      },
+      {
+        "title": "每个岗位负责什么？",
+        "body": "职责边界与交付物"
+      },
+      {
+        "title": "每个岗位怎么工作？",
+        "body": "流程、工具与协作方式"
+      },
+      {
+        "title": "新人最常问什么？",
+        "body": "高频问题即知识库优先级"
+      }
+    ],
+    "footer": "知识库不是从文件开始，而是从岗位、流程和问题开始"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-23-34.png",
+    "output": "2026-09-21_16-23-34",
+    "id": "material-asset-audit",
+    "title": "再做素材盘点",
+    "layout": "lanes_hub_tiers",
+    "hub": "看清手头有什么",
+    "lanes": [
+      {
+        "title": "文档时效与重复",
+        "steps": [
+          "① 过期的产品手册",
+          "③ 多份 SOP：约 40% 重复"
+        ]
+      },
+      {
+        "title": "结构与质量",
+        "steps": [
+          "② 报价 Excel：标准不统一",
+          "④ 会议纪要：信息混乱",
+          "⑤ 扫描 PDF：OCR 可能出错"
+        ]
+      },
+      {
+        "title": "隐性知识",
+        "steps": [
+          "老员工经验还没写下来"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "先看清手头有什么，再决定补什么、删什么"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-25-19.png",
+    "output": "2026-09-21_16-25-19",
+    "id": "complete-dedupe-verify",
+    "title": "补齐、去重、核对",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "手册",
+        "sub": "专人梳理操作/维护手册"
+      },
+      {
+        "label": "文件",
+        "sub": "提炼重点、删除重复"
+      },
+      {
+        "label": "标准",
+        "sub": "找业务负责人核对"
+      },
+      {
+        "label": "脑内经验",
+        "sub": "访谈后写下来"
+      }
+    ],
+    "footer": "AI 可以整理，但权威标准必须由人确认"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-26-12.png",
+    "output": "2026-09-21_16-26-12",
+    "id": "build-kb-and-database",
+    "title": "开始搭知识库和数据库",
+    "layout": "lanes_hub_tiers",
+    "hub": "文档管经验与方法，表格管结构化事实",
+    "lanes": [
+      {
+        "title": "知识库路线",
+        "steps": [
+          "MarkItDown 清洗",
+          "Markdown 文件",
+          "元数据",
+          "目录分类",
+          "WikiLink",
+          "MOC 导航"
+        ]
+      },
+      {
+        "title": "数据库路线",
+        "steps": [
+          "建表",
+          "填表",
+          "核对数据"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-28-38.png",
+    "output": "2026-09-21_16-28-38",
+    "id": "test-kb-with-questions",
+    "title": "用问题检验知识库",
+    "layout": "mountain",
+    "subtitle": "30—50 张问题卡片",
+    "stages": [
+      {
+        "trigger": "①",
+        "label": "找得到吗？"
+      },
+      {
+        "trigger": "②",
+        "label": "找得准吗？"
+      },
+      {
+        "trigger": "③",
+        "label": "回答对吗？"
+      },
+      {
+        "trigger": "④",
+        "label": "能引用原文吗？"
+      },
+      {
+        "trigger": "⑤",
+        "label": "不知道时会拒答吗？"
+      }
+    ],
+    "footer": "不是上传成功就算完成，要用真实问题验收；还要测试旧版、冲突和越权"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_17-19-03.png",
+    "output": "2026-09-21_17-19-03",
+    "id": "plan-architecture-strong-models",
+    "title": "模型越强，Plan 架构设计越重要",
+    "layout": "split",
+    "left": [
+      "前端：Claude Fable 5 + Kimi K3 + Design Skill → 更有审美",
+      "FRONT-END ENGINE：UI 与页面生成"
+    ],
+    "right": [
+      "后端：GPT 模型 + 可选 Superpowers 架构",
+      "BACK-END ENGINE：API / Auth / Data 服务"
+    ],
+    "center": "人类：架构设计总览 · 需求拆解 · 验收清单 · 责任签名",
+    "footer": "AI：执行、生成 | 人类：拆解需求、下定义、审核验收、承担责任"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_17-21-39.png",
+    "output": "2026-09-21_17-21-39",
+    "id": "agentic-engineering-pipeline",
+    "title": "Autonomous Engineering | 智能体工程",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "Evidence",
+        "sub": "证据"
+      },
+      {
+        "label": "Brief",
+        "sub": "摘要"
+      },
+      {
+        "label": "Spec",
+        "sub": "规范"
+      },
+      {
+        "label": "Architecture",
+        "sub": "架构"
+      },
+      {
+        "label": "Plan",
+        "sub": "方案"
+      },
+      {
+        "label": "Tasks",
+        "sub": "任务"
+      },
+      {
+        "label": "Implement",
+        "sub": "实现"
+      },
+      {
+        "label": "Test",
+        "sub": "测试"
+      },
+      {
+        "label": "Review",
+        "sub": "审查"
+      },
+      {
+        "label": "Deployed",
+        "sub": "部署"
+      },
+      {
+        "label": "Observe",
+        "sub": "监控"
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="rag-ontology-necessity" name="有没有必要一上来就做 RAG 和本体论？">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="510" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="有没有必要一上来就做 RAG 和本体论？" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="740" height="40" as="geometry"/></mxCell>
+        <mxCell id="subtitle" value="大部分常见场景：没有必要" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="80" y="48" width="740" height="28" as="geometry"/></mxCell>
+        <mxCell id="s0" value="少量高频资料&amp;#xa;→ 文件夹 / 云文档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="350" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1" value="资料增多、检索不准&amp;#xa;→ RAG（文档索引库 → 检索 → 重排 → 生成 → 回答）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="240" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s2" value="跨系统复杂关系、强治理&amp;#xa;→ Ontology（本体模型 · 实体 · 权限控制 · 治理策略）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="130" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="em0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s1" target="s0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s2" target="s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="先小后大 | 先简单后复杂 | 先验证价值再工程化；大多数岗位只反复调用有限资料，百万级上下文先能覆盖不少小知识库" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="420" width="820" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_10-54-43.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="482" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

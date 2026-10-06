@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="non-compete-not-binary" name="竞业限制不是「签了就都有效」，也不是「没给钱就自动无效」">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="竞业限制不是「签了就都有效」，也不是「没给钱就自动无效」" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="100" y="10" width="800" height="40" as="geometry"/></mxCell>
+        <mxCell id="center" value="公司秘密 ↔ 员工择业权" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="280" width="200" height="100" as="geometry"/></mxCell>
+        <mxCell id="q0" value="适用对象&amp;#xa;高管 | 高级技术人员 | 其他真正负有保密义务的人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="80" y="120" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q1" value="离职后竞业&amp;#xa;最长 2 年，原则上按月支付经济补偿" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="520" y="120" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q2" value="解除条件&amp;#xa;单位原因连续 3 个月未付，劳动者可请求解除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="520" y="420" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q3" value="在职竞业&amp;#xa;不因未另付补偿当然无效" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="ec0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q0" target="q1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q1" target="q2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q2" target="q3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q3" target="q0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="先判断他到底接触了什么秘密；连续 3 个月未付可解锁" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="610" width="920" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-54-50.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="672" width="920" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

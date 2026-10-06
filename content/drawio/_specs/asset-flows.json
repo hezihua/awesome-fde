@@ -1,0 +1,2213 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-49-39.png",
+    "output": "2026-09-21_10-49-39",
+    "id": "knowledge-base-sources",
+    "title": "知识库从哪里来?",
+    "layout": "lanes_hub_tiers",
+    "lanes": [
+      {
+        "title": "① 没有数字化",
+        "steps": [
+          "访谈",
+          "录音",
+          "转文字",
+          "整理"
+        ]
+      },
+      {
+        "title": "② 已有文档",
+        "steps": [
+          "收集",
+          "去重",
+          "分类",
+          "清洗"
+        ]
+      },
+      {
+        "title": "③ Microsoft MarkItDown",
+        "steps": [
+          "Word / PPT / PDF / Excel 转 Markdown"
+        ]
+      }
+    ],
+    "hub": "知识入库与连通",
+    "tiers": [
+      "① 个人: Obsidian",
+      "② 团队: 飞书知识库 / 企业微信文档",
+      "③ Agent项目: 共享知识",
+      "④ 高要求本地化: FastGPT 二次开发"
+    ],
+    "footer": "SAG / SQL 关联: 值得关注，先验证再使用"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-54-43.png",
+    "output": "2026-09-21_10-54-43",
+    "id": "rag-ontology-necessity",
+    "title": "有没有必要一上来就做 RAG 和本体论？",
+    "layout": "mountain",
+    "subtitle": "大部分常见场景：没有必要",
+    "stages": [
+      {
+        "trigger": "少量高频资料",
+        "label": "文件夹 / 云文档"
+      },
+      {
+        "trigger": "资料增多、检索不准",
+        "label": "RAG（文档索引库 → 检索 → 重排 → 生成 → 回答）"
+      },
+      {
+        "trigger": "跨系统复杂关系、强治理",
+        "label": "Ontology（本体模型 · 实体 · 权限控制 · 治理策略）"
+      }
+    ],
+    "footer": "先小后大 | 先简单后复杂 | 先验证价值再工程化；大多数岗位只反复调用有限资料，百万级上下文先能覆盖不少小知识库"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-55-51.png",
+    "output": "2026-09-21_10-55-51",
+    "id": "automation-capability-upgrade",
+    "title": "自动化能力的升级路径",
+    "layout": "chain",
+    "subtitle": "从照着做，到围绕目标持续做",
+    "nodes": [
+      {
+        "label": "RPA",
+        "sub": "固定步骤"
+      },
+      {
+        "label": "Workflow",
+        "sub": "节点编排"
+      },
+      {
+        "label": "Skill",
+        "sub": "自然语言 SOP"
+      },
+      {
+        "label": "Cron",
+        "sub": "定时触发"
+      },
+      {
+        "label": "Goal",
+        "sub": "持续目标"
+      },
+      {
+        "label": "Loop",
+        "sub": "自主循环"
+      }
+    ],
+    "footer": "Skill + Cron + Goal = Loop"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-56-34.png",
+    "output": "2026-09-21_10-56-34",
+    "id": "aka-problem-coverage",
+    "title": "AKA 能解决多少问题？",
+    "layout": "lanes_hub_tiers",
+    "hub": "覆盖大多数常见企业 AI 场景（经验判断：约 80% 常见问题）",
+    "lanes": [
+      {
+        "title": "内容与研究",
+        "steps": []
+      },
+      {
+        "title": "数据管理",
+        "steps": []
+      },
+      {
+        "title": "知识问答",
+        "steps": []
+      },
+      {
+        "title": "内部协作",
+        "steps": []
+      },
+      {
+        "title": "流程自动化",
+        "steps": []
+      }
+    ],
+    "tiers": [
+      "更复杂的功能：看预算、算成本、算收益"
+    ],
+    "footer": "不是功能越多越好，而是 ROI 算得过来"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-59-42.png",
+    "output": "2026-09-21_10-59-42",
+    "id": "classroom-model-combo-202608",
+    "title": "2026.08 课堂推荐模型组合",
+    "layout": "lanes_hub_tiers",
+    "hub": "按任务选模型（中央控制台）",
+    "lanes": [
+      {
+        "title": "编程",
+        "steps": [
+          "GPT 5.6 SOL",
+          "GLM 5.2",
+          "Claude Opus 5 / Fable 5"
+        ]
+      },
+      {
+        "title": "文本创作",
+        "steps": [
+          "DeepSeek"
+        ]
+      },
+      {
+        "title": "多模态与 UI",
+        "steps": [
+          "Kimi K3"
+        ]
+      },
+      {
+        "title": "图片",
+        "steps": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ]
+      },
+      {
+        "title": "视频",
+        "steps": [
+          "Seedance 2.0",
+          "Seedance 2.5"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "按任务选角色，不按榜单追第一"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-15-37.png",
+    "output": "2026-09-21_11-15-37",
+    "id": "trustworthy-context",
+    "title": "什么样的上下文，才值得相信？",
+    "layout": "cycle",
+    "subtitle": "可信上下文观测站 · 已验证的上下文存档包",
+    "quadrants": [
+      {
+        "title": "1. 可以追溯：来源与标签完整",
+        "body": "来源：权威 / 内部系统 / 公开网站 / 专家访谈 / 历史档案；来源标签含来源、作者、时间、类型、ID；归档轨迹：采集 → 入库 → 校验 → 归档"
+      },
+      {
+        "title": "2. 可以理解：完整、准确、不重复、不冲突",
+        "body": "完整性检查（必要字段齐全）→ 清洗与补全 → 去重与合并 → 冲突解析（保留最佳版本）"
+      },
+      {
+        "title": "3. 可以控制：来源评级、权限、版本可管",
+        "body": "来源评级（权威至不可信五星）· 权限（管理员 / 编辑 / 只读）· 版本管理（v3.1 / v3.0 / v2.1）"
+      },
+      {
+        "title": "4. 可以相信：权威来源 + 规范整理 + 统一标准",
+        "body": "权威认证 · 规范整理（统一命名、清晰目录、一致结构、可检索）· 统一标准（口径、单位、格式）"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-17-56.png",
+    "output": "2026-09-21_11-17-56",
+    "id": "information-to-wisdom",
+    "title": "信息怎样一步步变成智慧？",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "整理",
+        "label": "数据与信号 | 未经整理的原始记录"
+      },
+      {
+        "trigger": "提炼",
+        "label": "信息 | 经过简单整理的数据"
+      },
+      {
+        "trigger": "判断",
+        "label": "知识 | 从信息中提炼出的规则、规律与经验"
+      },
+      {
+        "trigger": "",
+        "label": "智慧 | 从经验和规则中凝聚出的判断力"
+      }
+    ],
+    "footer": "整理 → 提炼 → 判断"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-20-13.png",
+    "output": "2026-09-21_11-20-13",
+    "id": "markdown-wikilink-tech",
+    "title": "技术 01 | Markdown + WikiLink",
+    "layout": "split",
+    "left": [
+      "# 项目笔记",
+      "目标：搭建知识体系 · 提升可复用性 · 持续迭代",
+      "背景：系统设计需跨主题知识连接与沉淀",
+      "关键点：原子化记录 · 互联互通 · 持续生长",
+      "方案：Markdown + WikiLink 构建最轻量知识网络",
+      "引用：《卡片笔记写作法》— 把想法分开来写，才能连接得更好"
+    ],
+    "right": [
+      "[[ 项目笔记 ]]（中心）",
+      "[[ 知识网络 ]]",
+      "[[ 原子笔记 ]]",
+      "[[ 系统设计 ]]",
+      "[[ 持续迭代 ]]",
+      "Markdown：干净、易读、易迁移的纯文本",
+      "WikiLink：用 [[双向链接]] 把笔记连起来",
+      "反向链接：自动看见「谁提到过我」"
+    ],
+    "center": "连接产生洞察！",
+    "footer": "最轻、最基础的人类可维护知识网络"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-25-02.png",
+    "output": "2026-09-21_11-25-02",
+    "id": "keyword-search-tech",
+    "title": "技术 02 | 关键词检索",
+    "layout": "split",
+    "left": [
+      "Grep / 正则搜索",
+      "逐页查找 · 逐字比对 · 耗时耗力",
+      "逐字找同一个词：准确、直接，换个说法可能找不到",
+      "档案柜：设计图纸 · 设备说明书 · 检验记录 · 变更文件 · 验收资料"
+    ],
+    "right": [
+      "增强关键词检索：倒排索引 + BM25",
+      "先做词表和索引，再按相关性排序：更快、更会排序",
+      "倒排索引：词项 → 文档列表（DocID、频次、位置…）",
+      "BM25 相关性排序：D3(12.45) · D12(9.87) · D77(6.21) · D42(3.66)",
+      "查询示例：型号 X100"
+    ],
+    "center": "姓名 · 型号 · 编号 · 法规原句",
+    "footer": "擅长姓名、型号、编号、法规原句；不等于语义理解"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-25-52.png",
+    "output": "2026-09-21_11-25-52",
+    "id": "rag-flip-then-answer",
+    "title": "技术 03 | RAG：先翻书，再回答",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "1. 检索",
+        "sub": "用户提问，系统到知识库找资料"
+      },
+      {
+        "label": "2. 增强",
+        "sub": "把问题和原文证据一起发给 LLM"
+      },
+      {
+        "label": "3. 生成",
+        "sub": "模型依据证据组织答案并给出引用"
+      }
+    ],
+    "footer": "找错材料，仍然可能答错；RAG 不是「绝不幻觉」"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-27-30.png",
+    "output": "2026-09-21_11-27-30",
+    "id": "knowledge-graph-network",
+    "title": "技术 04 | 知识图谱：编一张关系网",
+    "layout": "lanes_hub_tiers",
+    "hub": "某科技公司（关系网中心）",
+    "lanes": [
+      {
+        "title": "节点",
+        "steps": [
+          "人",
+          "公司",
+          "合同",
+          "产品",
+          "事件"
+        ]
+      },
+      {
+        "title": "关系",
+        "steps": [
+          "属于",
+          "签署",
+          "服务",
+          "影响",
+          "参与"
+        ]
+      }
+    ],
+    "tiers": [
+      "像思维导图，但关系更严格、可以被机器查询",
+      "适合：多跳关系、影响分析、客户—合同—项目—回款",
+      "三元组（证据）：张三 — 参加 — FDE 训练营"
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-29-29.png",
+    "output": "2026-09-21_11-29-29",
+    "id": "graphrag-spider-web",
+    "title": "技术 05 | GraphRAG：沿着蛛网找答案",
+    "layout": "lanes_hub_tiers",
+    "hub": "跨文档图网络 · 沿关系路径检索",
+    "lanes": [
+      {
+        "title": "跨文档检索",
+        "steps": []
+      },
+      {
+        "title": "全局总结",
+        "steps": []
+      },
+      {
+        "title": "识别复杂关系",
+        "steps": []
+      }
+    ],
+    "tiers": [
+      "边界：建图成本高，关系抽错会一路传错",
+      "最后仍要回到原文核验"
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-33-55.png",
+    "output": "2026-09-21_11-33-55",
+    "id": "kb-eight-build-methods",
+    "title": "知识库常见的 8 种搭建方法",
+    "layout": "lanes_hub_tiers",
+    "hub": "知识库",
+    "lanes": [
+      {
+        "title": "结构与元数据",
+        "steps": [
+          "1. 目录层级：放在哪里",
+          "2. 分类：统一叫法",
+          "3. 标签：多个主题",
+          "4. 元数据：来源、日期、负责人、版本"
+        ]
+      },
+      {
+        "title": "连接与建模",
+        "steps": [
+          "5. WikiLink：笔记主动拉线",
+          "6. MOC：主题导航地图",
+          "7. 原子卡片：一张卡片一个观点",
+          "8. 本体 Ontology：规定实体、关系与规则"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "先用简单方法把知识管住，再按问题升级"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-39-12.png",
+    "output": "2026-09-21_11-39-12",
+    "id": "lightweight-data-governance",
+    "title": "轻量级数据治理：先跑通，再升级",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "⑦ 运营",
+        "label": "定时更新、记录 Log、备份、Git 版本"
+      },
+      {
+        "trigger": "⑥ 接入",
+        "label": "知识库 → Skill → Agent → IM 手机对话"
+      },
+      {
+        "trigger": "⑤ 治理",
+        "label": "清洗、结构化、分类、权限分级"
+      },
+      {
+        "trigger": "④ 补缺",
+        "label": "还缺哪些关键数据？"
+      },
+      {
+        "trigger": "③ 筛选",
+        "label": "哪些真的相关？无关的先拿掉"
+      },
+      {
+        "trigger": "② 盘点",
+        "label": "手头有哪些知识和数据？"
+      },
+      {
+        "trigger": "① 先问",
+        "label": "到底要解决什么问题？"
+      }
+    ],
+    "footer": "终点：知识服务（可对话、可交付）"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-30-52.png",
+    "output": "2026-09-21_12-30-52",
+    "id": "tool-choice-by-complexity",
+    "title": "工具怎么选？看使用者和复杂度",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "个人",
+        "sub": "Obsidian + Markdown + WikiLink · 轻、快、可迁移"
+      },
+      {
+        "label": "团队",
+        "sub": "飞书云文档 + 知识库 + 多维表格 · 协作、权限、流程"
+      },
+      {
+        "label": "本地自建",
+        "sub": "FastGPT · 知识问答、工作流、多租户"
+      }
+    ],
+    "footer": "先选够用的，不要为了「先进」把系统做重"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-36-56.png",
+    "output": "2026-09-21_12-36-56",
+    "id": "how-companies-operate",
+    "title": "不同公司怎么运转",
+    "layout": "mountain",
+    "subtitle": "FDE 实战训练营 · 第四节 | 怎么从个人提效到组织提效？",
+    "stages": [
+      {
+        "trigger": "① OPC",
+        "label": "一人工作台 | 个人生产力 · 专注 · 效率 · 工具 | 从 0 到 1"
+      },
+      {
+        "trigger": "② 小型公司",
+        "label": "以老板为中心 | 老板视角 · 决策 · 执行 · 结果 | 从 1 到 N"
+      },
+      {
+        "trigger": "③ 业务单元",
+        "label": "团队协同作战 | 产品 · 运营 · 市场 · 交付 · 支持 | 从 N 到 M"
+      },
+      {
+        "trigger": "④ 集团公司",
+        "label": "战略驱动 · 生态协同 | 战略与投资 · 财务与风控 · 人力与组织 · 数字化与 AI · 品牌与生态 | 从 M 到 ∞"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-37-27.png",
+    "output": "2026-09-21_12-37-27",
+    "id": "three-companies-key-people",
+    "title": "三种公司，三种关键人",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "小公司",
+        "sub": "老板中心制 · 搞定老板"
+      },
+      {
+        "label": "中型公司",
+        "sub": "业务中心制 · 搞定业务负责人"
+      },
+      {
+        "label": "大型集团",
+        "sub": "复杂部门、流程与权限 · 搞定高层"
+      }
+    ],
+    "footer": "公司越大，拍板人与价值链越复杂。"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-39-11.png",
+    "output": "2026-09-21_12-39-11",
+    "id": "ai-implementation-as-business",
+    "title": "AI 落地，首先是一门生意",
+    "layout": "lanes_hub_tiers",
+    "hub": "成交 = 搞定拍板决策人 + 提供离钱近的价值",
+    "lanes": [
+      {
+        "title": "拍板决策人",
+        "steps": []
+      },
+      {
+        "title": "离钱最近的价值",
+        "steps": []
+      }
+    ],
+    "tiers": [
+      "小公司：解放老板的时间、精力、注意力和决策能力",
+      "中型公司：解决业务问题",
+      "大型集团：解决组织问题"
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-40-50.png",
+    "output": "2026-09-21_12-40-50",
+    "id": "company-as-living-organism",
+    "title": "公司是一个商业生命体",
+    "layout": "chain",
+    "subtitle": "它如何从一个人，逐步进化成一个庞大集团？",
+    "nodes": [
+      {
+        "label": "根基",
+        "sub": "客户 · 现金流 · 价值"
+      },
+      {
+        "label": "个人",
+        "sub": "从 0 开始的一人创业"
+      },
+      {
+        "label": "组织",
+        "sub": "小团队与办公协作"
+      },
+      {
+        "label": "流程",
+        "sub": "规模化运转机制"
+      },
+      {
+        "label": "集团",
+        "sub": "庞大商业生态与城市天际线"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-41-33.png",
+    "output": "2026-09-21_12-41-33",
+    "id": "opc-solo-business-loop",
+    "title": "OPC：一个人的商业闭环",
+    "layout": "cycle",
+    "center": "一人负责，一人说了算 · 六边形能力 | 极高效率",
+    "quadrants": [
+      {
+        "title": "获客",
+        "body": "线上触达与线索获取"
+      },
+      {
+        "title": "销转",
+        "body": "面谈签约与方案成交"
+      },
+      {
+        "title": "交付",
+        "body": "方案落地与项目执行"
+      },
+      {
+        "title": "回款",
+        "body": "到账确认与现金流"
+      }
+    ],
+    "footer": "获客 → 销转 → 交付 → 回款"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-42-02.png",
+    "output": "2026-09-21_12-42-02",
+    "id": "small-company-boss-centric",
+    "title": "小公司：老板中心制",
+    "layout": "lanes_hub_tiers",
+    "hub": "老板拍板 · 本周重点计划 · 待办事项清单 | 决策判断 · 执行力 · 带动能力",
+    "lanes": [
+      {
+        "title": "销售",
+        "steps": [
+          "客户询问",
+          "需求 · 预算 · 时间",
+          "报价 · 合同 · 折扣权"
+        ]
+      },
+      {
+        "title": "交付",
+        "steps": [
+          "交付进度",
+          "进度 · 变更 · 资源 · 延期"
+        ]
+      },
+      {
+        "title": "运营",
+        "steps": [
+          "运营数据",
+          "收入 · 利润 · 现金流",
+          "费用 · 人事 · 流程 · 系统"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "优势：快 | 风险：老板成为瓶颈"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-43-12.png",
+    "output": "2026-09-21_12-43-12",
+    "id": "medium-company-functions-bu",
+    "title": "中型公司：职能与事业部",
+    "layout": "split",
+    "left": [
+      "职能部门：专业分工",
+      "财务",
+      "人力",
+      "法务",
+      "产品",
+      "销售"
+    ],
+    "right": [
+      "事业部：围绕业务经营",
+      "事业部 A · 收入 · 利润",
+      "事业部 B · 收入 · 利润",
+      "事业部 C · 收入 · 利润"
+    ],
+    "center": "数据共享 ↔ 需求反馈 · 数据 · 任务 · 流程 · 洞察 · 问题",
+    "footer": "扛收入 | 扛利润 | 跨部门协作"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-43-29.png",
+    "output": "2026-09-21_12-43-29",
+    "id": "platform-and-group",
+    "title": "平台与集团",
+    "layout": "lanes_hub_tiers",
+    "hub": "总部只抓四件事：战略方向 · 规章制度 · 资金流动 · 风险管控",
+    "lanes": [
+      {
+        "title": "战略",
+        "steps": [
+          "战略方向"
+        ]
+      },
+      {
+        "title": "制度",
+        "steps": [
+          "规章制度"
+        ]
+      },
+      {
+        "title": "资金",
+        "steps": [
+          "资金流动"
+        ]
+      },
+      {
+        "title": "风险",
+        "steps": [
+          "风险管控"
+        ]
+      }
+    ],
+    "tiers": [
+      "北方业务单元",
+      "华东业务单元",
+      "华南业务单元",
+      "西部业务单元"
+    ],
+    "footer": "业务单元：负责各地区的日常经营管理"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-44-16.png",
+    "output": "2026-09-21_12-44-16",
+    "id": "front-office-revenue",
+    "title": "前台：搞钱的部门",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "市场与品牌",
+        "sub": "让别人知道你"
+      },
+      {
+        "label": "销售与商务",
+        "sub": "把订单签下来"
+      },
+      {
+        "label": "客户成功",
+        "sub": "持续购买 + 转介绍"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-45-58.png",
+    "output": "2026-09-21_12-45-58",
+    "id": "middle-platform-value",
+    "title": "中台：价值创造的部门",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "产品",
+        "sub": "决定做什么"
+      },
+      {
+        "label": "研发",
+        "sub": "把产品做出来"
+      },
+      {
+        "label": "运营",
+        "sub": "让业务持续运转"
+      },
+      {
+        "label": "项目",
+        "sub": "保证交付、质量与验收"
+      }
+    ],
+    "footer": "输入：客户需求（目标 · 痛点 · 价值期望 · 约束）→ 输出：交付完整 · 质量达标 · 验收通过 · 客户满意"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-46-52.png",
+    "output": "2026-09-21_12-46-52",
+    "id": "back-office-sustain",
+    "title": "后台：让公司持续活下去",
+    "layout": "lanes_hub_tiers",
+    "hub": "前台业务运转：办公 · 会议 · 物流交付",
+    "lanes": [
+      {
+        "title": "财务",
+        "steps": [
+          "管钱",
+          "收款 → 资金流 → 付款"
+        ]
+      },
+      {
+        "title": "人力",
+        "steps": [
+          "找人、用人、培养、激励、淘汰",
+          "吸引 → 筛选 → 培养 → 激励 → 淘汰"
+        ]
+      },
+      {
+        "title": "法务",
+        "steps": [
+          "合规与边界",
+          "合同 · 边界线"
+        ]
+      },
+      {
+        "title": "IT",
+        "steps": [
+          "数字基建、数字资产与安全",
+          "服务器 · 网络 · 云 · 安全锁"
+        ]
+      },
+      {
+        "title": "行政",
+        "steps": [
+          "日常支持",
+          "物资 · 场地 · 会议 · 后勤 · 对外联络"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-49-27.png",
+    "output": "2026-09-21_12-49-27",
+    "id": "two-ai-value-types",
+    "title": "两种 AI 落地价值",
+    "layout": "lanes_hub_tiers",
+    "hub": "优化（内部）· 增长漏斗（外部）",
+    "lanes": [
+      {
+        "title": "内部经营：部门、需求、指标、标准",
+        "steps": [
+          "部门",
+          "需求",
+          "指标",
+          "标准"
+        ]
+      },
+      {
+        "title": "外部增长",
+        "steps": [
+          "获客",
+          "销转",
+          "升单",
+          "复购",
+          "转介绍"
+        ]
+      }
+    ],
+    "tiers": [
+      "内部典型价值：有限范围内降本增效，常见目标 30%—50%",
+      "外部：可能打开 10 倍、100 倍增长想象空间"
+    ],
+    "footer": "不是结果承诺，取决于产品、渠道、市场与执行"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-51-36.png",
+    "output": "2026-09-21_12-51-36",
+    "id": "front-middle-back-office",
+    "title": "前台做增长，中台做提效，后台做降本",
+    "layout": "lanes_hub_tiers",
+    "hub": "业务成果仪表盘",
+    "lanes": [
+      {
+        "title": "前台 · 做增长",
+        "steps": [
+          "市场与客户触达",
+          "需求与机会识别",
+          "增长策略与执行"
+        ]
+      },
+      {
+        "title": "中台 · 做提效",
+        "steps": [
+          "文档与流程",
+          "编排与自动化",
+          "数据与分析",
+          "交付与验收"
+        ]
+      },
+      {
+        "title": "后台 · 做降本",
+        "steps": [
+          "成本控制",
+          "合规管理",
+          "风险管理",
+          "技术与数据",
+          "支持保障"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "没有唯一答案 | 看企业实际情况 | 看客户真实需求 | 看公司的经营选择"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-12-10.png",
+    "output": "2026-09-21_14-12-10",
+    "id": "phase1-personal-efficiency",
+    "title": "第一阶段：个人提效",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "不会用 AI",
+        "sub": "起点"
+      },
+      {
+        "label": "安装部署",
+        "sub": "能用上"
+      },
+      {
+        "label": "基础培训",
+        "sub": "能用上"
+      },
+      {
+        "label": "培训带练",
+        "sub": "用得好"
+      },
+      {
+        "label": "轻度定制",
+        "sub": "用得好"
+      },
+      {
+        "label": "黑客松",
+        "sub": "不抵触用"
+      },
+      {
+        "label": "项目激励",
+        "sub": "文化调整 + 激励"
+      }
+    ],
+    "footer": "目标：让人真正开始改变工作方式"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-17-00.png",
+    "output": "2026-09-21_14-17-00",
+    "id": "phase2-department-efficiency",
+    "title": "第二阶段：部门提效",
+    "layout": "cycle",
+    "center": "部门知识库",
+    "quadrants": [
+      {
+        "title": "共享上下文",
+        "body": "部门知识库，共同访问"
+      },
+      {
+        "title": "共同标准",
+        "body": "什么是好、进度如何、怎样验收"
+      },
+      {
+        "title": "共用能力",
+        "body": "Skill · 定时任务 · 项目协作"
+      },
+      {
+        "title": "协作原则",
+        "body": "人机协同围桌作业"
+      }
+    ],
+    "footer": "公平 | 公开 | 透明 | 公认"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-23-04.png",
+    "output": "2026-09-21_14-23-04",
+    "id": "phase3-org-efficiency",
+    "title": "第三阶段：组织提效",
+    "layout": "lanes_hub_tiers",
+    "hub": "成熟的企业级 Agent 协作",
+    "lanes": [
+      {
+        "title": "人才：培训、培养、筛选与更新",
+        "steps": [
+          "FDE 培训",
+          "人才培养",
+          "人才筛选与更新"
+        ]
+      },
+      {
+        "title": "工具：企业级 Agent",
+        "steps": [
+          "市场分析 Agent",
+          "研发设计 Agent",
+          "数据分析 Agent",
+          "知识管理 Agent",
+          "客户服务 Agent"
+        ]
+      },
+      {
+        "title": "组织：科层 + 契约 + 项目制",
+        "steps": [
+          "科层责任链",
+          "契约边界（目标权责 / SLA / 资源预算）",
+          "前台项目小队",
+          "后台支持平台"
+        ]
+      }
+    ],
+    "tiers": [
+      "标准化接口 + 企业数据 + 安全合规",
+      "前台围绕项目作战，后台保障日常运转"
+    ],
+    "footer": "人定方向与验收，AI 承担大量执行"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-50-15.png",
+    "output": "2026-09-21_14-50-15",
+    "id": "business-model-basics",
+    "title": "什么叫商业模式？",
+    "layout": "chain",
+    "subtitle": "商业模式，就是赚钱的路子。",
+    "nodes": [
+      {
+        "label": "获客",
+        "sub": "找到有预算的客户"
+      },
+      {
+        "label": "销转",
+        "sub": "签单收款"
+      },
+      {
+        "label": "交付",
+        "sub": "提供对应的产品或服务"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-51-16.png",
+    "output": "2026-09-21_14-51-16",
+    "id": "business-model-water-source",
+    "title": "先找到水源",
+    "layout": "chain",
+    "subtitle": "所有商业模式的出发点，都是找到市场需求和钱的流向。",
+    "nodes": [
+      {
+        "label": "找到水源",
+        "sub": "市场需求与钱流"
+      },
+      {
+        "label": "挖水井",
+        "sub": "先提供服务"
+      },
+      {
+        "label": "铺水管",
+        "sub": "做成标准化产品"
+      },
+      {
+        "label": "收水费",
+        "sub": "订阅费、Token 费等"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-53-59.png",
+    "output": "2026-09-21_14-53-59",
+    "id": "fde-business-model",
+    "title": "FDE 怎么搭商业模式？",
+    "layout": "chain",
+    "subtitle": "把企业需求逐步建设成可持续供水系统",
+    "nodes": [
+      {
+        "label": "挖水井 · 服务",
+        "sub": "企业 AI 内训 · 智能体定制"
+      },
+      {
+        "label": "铺水管 · 产品",
+        "sub": "标准化培训 · SaaS · 一体机"
+      },
+      {
+        "label": "收水费 · 持续收入",
+        "sub": "Token / 月费 / 年费 / 人头订阅"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-10-21.png",
+    "output": "2026-09-21_15-10-21",
+    "id": "seven-money-questions",
+    "title": "赚钱七问",
+    "layout": "chain",
+    "subtitle": "案例：老板 AI 线下课",
+    "nodes": [
+      {
+        "label": "1 谁来付钱？",
+        "sub": "老板"
+      },
+      {
+        "label": "2 为啥付钱？",
+        "sub": "想学 AI，也相信你的价值"
+      },
+      {
+        "label": "3 卖的是什么？",
+        "sub": "线下大课"
+      },
+      {
+        "label": "4 怎么收钱？",
+        "sub": "一次性对公打款"
+      },
+      {
+        "label": "5 怎么交付？",
+        "sub": "集中上课服务"
+      },
+      {
+        "label": "6 利润在哪里？",
+        "sub": "课程服务"
+      },
+      {
+        "label": "7 如何持续？",
+        "sub": "升单产品、SaaS 订阅"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-13-38.png",
+    "output": "2026-09-21_15-13-38",
+    "id": "company-two-concerns",
+    "title": "公司关心的两件事",
+    "layout": "mountain",
+    "subtitle": "所有公司都建立在某一种商业模式上；公司是一种商业生命体。",
+    "stages": [
+      {
+        "trigger": "增长",
+        "label": "我能不能多赚钱？"
+      },
+      {
+        "trigger": "可持续",
+        "label": "我能不能持续赚钱？"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-14-46.png",
+    "output": "2026-09-21_15-14-46",
+    "id": "money-making-cycle",
+    "title": "赚钱是一个循环",
+    "layout": "chain",
+    "subtitle": "FDE 做自媒体赚钱",
+    "nodes": [
+      {
+        "label": "1 客户从哪来",
+        "sub": "自媒体"
+      },
+      {
+        "label": "2 为什么下单",
+        "sub": "卖点与案例信任"
+      },
+      {
+        "label": "3 买了什么",
+        "sub": "服务与产品"
+      },
+      {
+        "label": "4 怎么交付",
+        "sub": "驻场与 SaaS 开发"
+      },
+      {
+        "label": "5 什么时候回款",
+        "sub": "预付款、阶段款、尾款"
+      },
+      {
+        "label": "6 如何复购",
+        "sub": "订阅费、运维费"
+      }
+    ],
+    "footer": "任何一环断掉，赚钱循环都会慢慢衰亡"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-17-07.png",
+    "output": "2026-09-21_15-17-07",
+    "id": "three-accounting-books",
+    "title": "算账：指挥公司活下去",
+    "layout": "lanes_hub_tiers",
+    "hub": "三本账",
+    "lanes": [
+      {
+        "title": "利润账",
+        "steps": [
+          "收入 - 成本 = 毛利",
+          "毛利 - 经营成本 = 经营利润",
+          "经营利润 - 利息/税费/折旧 = 净利润"
+        ]
+      },
+      {
+        "title": "现金账",
+        "steps": [
+          "账上有没有健康现金流？",
+          "重点看垫款、账期",
+          "预付款和订阅费更健康"
+        ]
+      },
+      {
+        "title": "单位经济账",
+        "steps": [
+          "每条产品线 ROI 是否算得过来？",
+          "每个客户 ROI 是否算得过来？",
+          "每个项目 ROI 是否算得过来？"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-37-15.png",
+    "output": "2026-09-21_15-37-15",
+    "id": "pitfalls-we-have-hit",
+    "title": "我们踩过的坑有哪些？",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "a",
+        "sub": "b"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-23-07.png",
+    "output": "2026-09-21_15-23-07",
+    "id": "six-business-types",
+    "title": "六类生意",
+    "layout": "lanes_hub_tiers",
+    "hub": "平台/渠道：卖中介+流量",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "商品",
+        "steps": [
+          "卖所有权"
+        ]
+      },
+      {
+        "title": "专业服务",
+        "steps": [
+          "卖时间+结果"
+        ]
+      },
+      {
+        "title": "软件/内容/知识",
+        "steps": [
+          "卖使用权+复制权"
+        ]
+      },
+      {
+        "title": "资产/租赁",
+        "steps": [
+          "卖钱的时间+风险"
+        ]
+      },
+      {
+        "title": "连锁加盟",
+        "steps": [
+          "卖可复制的经营系统"
+        ]
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-25-34.png",
+    "output": "2026-09-21_15-25-34",
+    "id": "ten-revenue-models",
+    "title": "十种收钱方式",
+    "layout": "lanes_hub_tiers",
+    "hub": "企业现金池",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "一次性收费",
+        "steps": []
+      },
+      {
+        "title": "按量计费",
+        "steps": []
+      },
+      {
+        "title": "许可/版权/租金",
+        "steps": []
+      },
+      {
+        "title": "项目分成",
+        "steps": []
+      },
+      {
+        "title": "人天计费",
+        "steps": []
+      },
+      {
+        "title": "订阅费",
+        "steps": []
+      },
+      {
+        "title": "会员费",
+        "steps": []
+      },
+      {
+        "title": "佣金/抽成",
+        "steps": []
+      },
+      {
+        "title": "广告/线索",
+        "steps": []
+      },
+      {
+        "title": "利差/保费",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-27-00.png",
+    "output": "2026-09-21_15-27-00",
+    "id": "six-profit-sources",
+    "title": "六种利润来源",
+    "layout": "lanes_hub_tiers",
+    "hub": "利润湖",
+    "tiers": [],
+    "lanes": [
+      {
+        "title": "抬价",
+        "steps": [
+          "品牌、案例与稀缺性"
+        ]
+      },
+      {
+        "title": "成本控制",
+        "steps": [
+          "供应链、技术、管理"
+        ]
+      },
+      {
+        "title": "周转",
+        "steps": [
+          "翻台率、库存周转、资金周转"
+        ]
+      },
+      {
+        "title": "规模",
+        "steps": [
+          "标准化复制，边际成本下降"
+        ]
+      },
+      {
+        "title": "流量",
+        "steps": [
+          "渠道、平台、注意力入口"
+        ]
+      },
+      {
+        "title": "差价",
+        "steps": [
+          "时间差、信息差、汇率差、地域差"
+        ]
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-29-56.png",
+    "output": "2026-09-21_15-29-56",
+    "id": "money-model-human-insight",
+    "title": "赚钱模式，本质是人心洞察",
+    "layout": "split",
+    "subtitle": "过去和现在的商业模式，大多围绕人的心智旅程建立；未来会有越来越多的商业模式围绕 AI 建立。",
+    "left": [
+      "人的购买旅程",
+      "心动（欲望与意图）",
+      "逛店浏览",
+      "线上比价选择",
+      "刷卡支付",
+      "收货开箱"
+    ],
+    "right": [
+      "AI Agent 自主采购",
+      "AI 自主调研与选品",
+      "授权支付",
+      "闸机验卡 · 自动发货"
+    ],
+    "center": "因为 AI 也有信用卡了。"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-30-11.png",
+    "output": "2026-09-21_15-30-11",
+    "id": "client-business-six-step-framework",
+    "title": "给客户梳理经营的六步框架",
+    "layout": "lanes_hub_tiers",
+    "hub": "FDE 顾问 · 诊断原则：看全局 · 找根因 · 定切入",
+    "lanes": [
+      {
+        "title": "1 钱的流向图",
+        "steps": [
+          "来源：客户付款、银行贷款、股东投入",
+          "去向：采购、薪酬、运营、税费",
+          "留存：再投资、留存收益、偿还债务"
+        ]
+      },
+      {
+        "title": "2 三本账分析",
+        "steps": [
+          "利润账：收入 - 成本 = 利润",
+          "现金账：流入 - 流出 = 净现金",
+          "单位经济账：单位利润结构"
+        ]
+      },
+      {
+        "title": "3 赚钱七问",
+        "steps": [
+          "谁付钱 → 客户",
+          "何为付钱 → 满足需求/解决痛点",
+          "卖什么 → 产品/服务",
+          "怎么收 → 收款方式",
+          "怎么交 → 交付履约",
+          "利润在哪 → 利润来源",
+          "如何持续 → 持续增长"
+        ]
+      },
+      {
+        "title": "4 经营瓶颈",
+        "steps": [
+          "增长和经营卡在哪里？"
+        ]
+      },
+      {
+        "title": "5 流程卡点",
+        "steps": [
+          "市场→销售→计划→采购→生产→仓储→财务→客服",
+          "痛点：信息不准、审批太慢、等待物料、质量返工、库存积压、回款延迟、响应滞后"
+        ]
+      },
+      {
+        "title": "6 AI 切入点",
+        "steps": [
+          "AI 从哪里切入，才能真正产生价值？",
+          "AI 改造点 ← 瓶颈与流程卡点"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-36-48.png",
+    "output": "2026-09-21_15-36-48",
+    "id": "legal-compliance-session6",
+    "title": "法律合规",
+    "layout": "split",
+    "subtitle": "FDE实战训练营 | 第6节 · 钱要赚，但别不小心进去了",
+    "left": [
+      "技术工作侧",
+      "服务器与数据库",
+      "代码与业务文档",
+      "合同与数据安全"
+    ],
+    "right": [
+      "法律后果侧",
+      "法庭与法锤",
+      "合规红线与警告",
+      "越界即承担法律责任"
+    ],
+    "center": "法律合规",
+    "footer": "曲率出逃"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-37-54.png",
+    "output": "2026-09-21_15-37-54",
+    "id": "wechat-opportunity-compliance",
+    "title": "微信商机分析：技术能做，不等于可以随便做",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "自动读取",
+        "sub": "聊天与消息"
+      },
+      {
+        "label": "自动分析",
+        "sub": "商机识别"
+      },
+      {
+        "label": "自动回复",
+        "sub": "触达客户"
+      }
+    ],
+    "footer": "风险：平台规则 · 账号封禁 · 个人信息 · 越权控制 · 黑灰产边界 | 优先走企业微信开放能力与合法接口"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-41-22.png",
+    "output": "2026-09-21_15-41-22",
+    "id": "crm-personal-information",
+    "title": "CRM装的不是‘线索’，是个人信息",
+    "layout": "chain",
+    "subtitle": "姓名 | 电话 | 消费记录 | 画像标签 | 聊天记录",
+    "nodes": [
+      {
+        "label": "告知目的与范围",
+        "sub": ""
+      },
+      {
+        "label": "取得合法授权",
+        "sub": ""
+      },
+      {
+        "label": "最小必要",
+        "sub": ""
+      },
+      {
+        "label": "权限分级",
+        "sub": ""
+      },
+      {
+        "label": "到期删除",
+        "sub": ""
+      }
+    ],
+    "footer": "敏感个人信息、向第三方提供等情形，需要更严格的告知与单独同意"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-43-29.png",
+    "output": "2026-09-21_15-43-29",
+    "id": "cross-border-network-compliance",
+    "title": "跨境联网：不要把‘能连上’当成‘合规’",
+    "layout": "split",
+    "subtitle": "不提供、不销售、不转租未经许可的跨境网络通道",
+    "left": [
+      "办公大楼 · 内部办公网络",
+      "合规路径：经许可的跨境通道",
+      "向依法有资质的电信经营者租用办公自用国际专线"
+    ],
+    "right": [
+      "跨境网络 / 全球互联网",
+      "禁止：非法转租或个人 VPN 等非合规出口"
+    ],
+    "center": "合规网关",
+    "footer": "不存在笼统的「个人使用当然合法」安全港"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-43-56.png",
+    "output": "2026-09-21_15-43-56",
+    "id": "knowledge-base-data-responsibility",
+    "title": "知识库首先是数据责任，不只是技术项目",
+    "layout": "cycle",
+    "subtitle": "客户授权 | 收集范围清楚 | 全程保密留痕 | 退出返还删除",
+    "center": "数据清单 + 授权书 + 保密协议 + 操作日志",
+    "quadrants": [
+      {
+        "title": "客户授权",
+        "body": "取得客户明确授权后再收集与使用"
+      },
+      {
+        "title": "收集范围清楚",
+        "body": "只收集业务必要范围内的数据"
+      },
+      {
+        "title": "全程保密留痕",
+        "body": "访问与操作可追溯、可审计"
+      },
+      {
+        "title": "退出返还删除",
+        "body": "项目结束按约定返还或删除"
+      }
+    ],
+    "footer": "谁能看、看什么、用多久、能否上传模型，必须写清楚"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-46-00.png",
+    "output": "2026-09-21_15-46-00",
+    "id": "court-ruling-precedents",
+    "title": "这些不是‘理论风险’，法院已经判过",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "AI图片",
+        "sub": "500元"
+      },
+      {
+        "label": "微博API",
+        "sub": "2000万元"
+      },
+      {
+        "label": "数据搪运",
+        "sub": "500万元"
+      },
+      {
+        "label": "算法秘密",
+        "sub": "50万元"
+      },
+      {
+        "label": "GPL开源",
+        "sub": "50万元"
+      },
+      {
+        "label": "源码瑕疵",
+        "sub": "可解除合同"
+      }
+    ],
+    "footer": "金额代表具体案件结果，不等于其他案件的固定价码"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-46-28.png",
+    "output": "2026-09-21_15-46-28",
+    "id": "ai-creation-infringement-liability",
+    "title": "AI 参与创作，也不能把侵权甩给AI",
+    "layout": "split",
+    "left": [
+      "AI 文生图创作界面",
+      "多轮提示词 · 参数调整 · 选择修改"
+    ],
+    "right": [
+      "《春风送来了温柔》AI文生图案",
+      "?2023?京0491民初11279号",
+      "赔礼道歉 + 赔偿 500 元"
+    ],
+    "center": "多轮提示词 + 参数调整 + 选择修改 = 人的智力投入",
+    "footer": "保存提示词、参数、版本、原图与修改记录"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-48-14.png",
+    "output": "2026-09-21_15-48-14",
+    "id": "ai-authorship-documentation",
+    "title": "只说‘这是我用AI做的’，还不够",
+    "layout": "chain",
+    "subtitle": "上海提示词案 (2025) 沁0101民列14775号：普通指令集合，不当然构成作品 | 「蝶蝶椅」案：简单提示词 + 无完整流程记录，图片未被认定为作品",
+    "nodes": [
+      {
+        "label": "保存构思",
+        "sub": ""
+      },
+      {
+        "label": "提示词迭代",
+        "sub": ""
+      },
+      {
+        "label": "参数",
+        "sub": ""
+      },
+      {
+        "label": "选图理由",
+        "sub": ""
+      },
+      {
+        "label": "人工修改",
+        "sub": ""
+      },
+      {
+        "label": "发布时间",
+        "sub": ""
+      }
+    ],
+    "footer": "保存构思、提示词迭代、参数、选图理由、人工修改、发布时间"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-50-45.png",
+    "output": "2026-09-21_15-50-45",
+    "id": "api-scraping-unauthorized",
+    "title": "有API接口，也不等于你有权抓",
+    "layout": "chain",
+    "subtitle": "一审：(2020) 粤03民列4626号 · 二审：(2022) 粤民终4541号",
+    "nodes": [
+      {
+        "label": "未经授权调用后台 API",
+        "sub": "抓取、存储并出售数据"
+      },
+      {
+        "label": "累计调用",
+        "sub": "超过 21.79 亿次"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "构成不正当竞争 | 判赔 2000 万元"
+      }
+    ],
+    "footer": "接口存在 ≠ 数据授权"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-51-17.png",
+    "output": "2026-09-21_15-51-17",
+    "id": "data-relocation-unfair-competition",
+    "title": "搪走的不是几条内容，而是别人的数据经营成果",
+    "layout": "split",
+    "left": [
+      "指导性案例262号",
+      "一审：(2019) 京0108民列35902号",
+      "二审：(2021) 京73民终1011号",
+      "构成不正当竞争 | 判赔500万元"
+    ],
+    "right": [
+      "原平台数据库 → 搪运后新平台数据库",
+      "搪运 50,392 个短视频",
+      "含平台专有代码、昵称头像和评论数据"
+    ],
+    "center": "整库搪运",
+    "footer": "知识库不能整库搪运"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-51-53.png",
+    "output": "2026-09-21_15-51-53",
+    "id": "trade-secret-algorithm-code",
+    "title": "算法、代码、训练数据库，都可能是商业秘密",
+    "layout": "chain",
+    "subtitle": "（2023）最高法知民终 1503 号",
+    "nodes": [
+      {
+        "label": "前员工接触",
+        "sub": "指尖识别算法与图片数据库"
+      },
+      {
+        "label": "离职后短期推出",
+        "sub": "高度近似产品"
+      },
+      {
+        "label": "商业秘密保护",
+        "sub": "停止披露、使用并销毁载体"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "连带赔偿 50 万元"
+      }
+    ],
+    "footer": "人员权限 | 离职交接 | 下载日志 | 研发时间线"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-53-07.png",
+    "output": "2026-09-21_15-53-07",
+    "id": "software-delivery-legal-compliance",
+    "title": "交付了能跑的软件，不等于完成了合法交付",
+    "layout": "split",
+    "left": [
+      "可运行软件（电商站点等）",
+      "源码与权利链条",
+      "依赖清单 · 许可证清单 · 源码扫描"
+    ],
+    "right": [
+      "人民法院案例库：2023-13-2-146-001",
+      "一审：(2020) 鲁01民列3195号",
+      "二审：(2021) 最高法知民终677号",
+      "交付源码高度疑似来自第三方，无法证明权利来源",
+      "客户有权解除合同 | 返还已付款 | 赔偿利息损失"
+    ],
+    "center": "权利链条断裂",
+    "footer": "依赖清单 | 许可证清单 | 源码扫描 | 权利瑕疵担保"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-53-29.png",
+    "output": "2026-09-21_15-53-29",
+    "id": "open-source-gpl-commercial",
+    "title": "开源不等于“闭源拿去卖”",
+    "layout": "chain",
+    "subtitle": "(2019) 粤73知民列207号 · 使用 GPL V3 项目开发商业 App，却未按协议开放渲生源码",
+    "nodes": [
+      {
+        "label": "GPL V3 开源项目",
+        "sub": "源码与许可义务"
+      },
+      {
+        "label": "闭源商用 App",
+        "sub": "未开放渲生源码 · 许可链断裂"
+      },
+      {
+        "label": "裁判结果",
+        "sub": "授权自动终止 | 构成侵权 | 判赔50万元"
+      }
+    ],
+    "footer": "商用前审查许可证 | GPL · AGPL · Apache · MIT 义务不同"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-54-27.png",
+    "output": "2026-09-21_15-54-27",
+    "id": "algorithm-filing-not-universal",
+    "title": "算法备案，不是所有AI项目一刀切",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "第一关",
+        "sub": "是否面向境内公众？"
+      },
+      {
+        "label": "第二关",
+        "sub": "算法推荐 | 深度合成 | 生成式AI服务"
+      },
+      {
+        "label": "第三关",
+        "sub": "是否具有舆论属性或社会动员能力？"
+      },
+      {
+        "label": "监管窗口",
+        "sub": "可能义务：算法备案 | 安全评估 | 模型备案/登记 | 备案号公示 | 生成内容标识"
+      }
+    ],
+    "footer": "纯内部工具通常不直接等同公众服务；逐关判断，而非一刀切"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-54-50.png",
+    "output": "2026-09-21_15-54-50",
+    "id": "non-compete-not-binary",
+    "title": "竞业限制不是「签了就都有效」，也不是「没给钱就自动无效」",
+    "layout": "cycle",
+    "center": "公司秘密 ↔ 员工择业权",
+    "quadrants": [
+      {
+        "title": "适用对象",
+        "body": "高管 | 高级技术人员 | 其他真正负有保密义务的人"
+      },
+      {
+        "title": "离职后竞业",
+        "body": "最长 2 年，原则上按月支付经济补偿"
+      },
+      {
+        "title": "解除条件",
+        "body": "单位原因连续 3 个月未付，劳动者可请求解除"
+      },
+      {
+        "title": "在职竞业",
+        "body": "不因未另付补偿当然无效"
+      }
+    ],
+    "footer": "先判断他到底接触了什么秘密；连续 3 个月未付可解锁"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-57-34.png",
+    "output": "2026-09-21_15-57-34",
+    "id": "china-ai-compliance-building",
+    "title": "中国大陆 AI 合规，是一座四层建筑",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "第一层 基础权利",
+        "label": "民法典 | 著作权法 | 劳动合同法 | 反不正当竞争"
+      },
+      {
+        "trigger": "第二层 网络与数据",
+        "label": "网络安全法 | 数据安全法 | 个人信息保护法 | 网络数据安全管理条例"
+      },
+      {
+        "trigger": "第三层 AI 专项",
+        "label": "算法推荐 | 深度合成 | 生成式 AI | 生成内容标识 | 拟人化互动"
+      },
+      {
+        "trigger": "第四层 行业规则",
+        "label": "金融 | 医疗 | 教育 | 汽车 | 平台规则与国家标准"
+      }
+    ],
+    "footer": "先看业务和数据，再判断落在哪一层"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-58-43.png",
+    "output": "2026-09-21_15-58-43",
+    "id": "compliance-six-project-nodes",
+    "title": "把合规嵌进项目六个节点",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "售前",
+        "sub": "只拿最小脱敏样本"
+      },
+      {
+        "label": "采集",
+        "sub": "数据清单 + 授权边界 + 责任分工"
+      },
+      {
+        "label": "知识库",
+        "sub": "客户现场/专机 + 物理隔离 + 权限分级 + 模型留存说明"
+      },
+      {
+        "label": "开发",
+        "sub": "依赖与源码审查 + 许可证台账"
+      },
+      {
+        "label": "上线",
+        "sub": "能力边界提示 + 人工复核/转人工 + 日志与应急停止"
+      },
+      {
+        "label": "退出",
+        "sub": "返还/删除数据 + 撤销权限 + 签字确认 + 案例彻底脱敏"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-08-08.png",
+    "output": "2026-09-21_16-08-08",
+    "id": "agent-permissions-and-guardrails",
+    "title": "Agent要干活：既要给权限，也要装护栏",
+    "layout": "split",
+    "left": [
+      "放开能力 · 加速",
+      "Agent Browser/CDP：控制 Chrome 浏览器",
+      "Computer Use：看屏幕、点鼠标、敲键盘",
+      "Bypass Permissions：跳过权限确认（危险驾驶模式）"
+    ],
+    "right": [
+      "加上护栏 · 刹车",
+      "Workspace：限定工作目录",
+      "Sandbox：限制文件、网络与进程",
+      "Docker：隔离运行环境",
+      "Hook：强制拦截危险动作"
+    ],
+    "center": "能力 ↔ 护栏",
+    "footer": "默认最小权限，按需逐级放开；危险模式只在隔离环境中短时使用"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-10-19.png",
+    "output": "2026-09-21_16-10-19",
+    "id": "model-harness-agent",
+    "title": "它能干活，但怎样安全、稳定、可重复？",
+    "layout": "split",
+    "subtitle": "Model 模型 + Harness 工程框架 = Agent",
+    "left": [
+      "工程护栏：层层防护，稳固可靠",
+      "标准接口：松耦合，可扩展",
+      "编排有序：自动协同，可追踪"
+    ],
+    "right": [
+      "① 接口：API / CLI / MCP / Tool Calling / Plugin",
+      "② 上下文：Session / Memory / 知识库 / 数据库",
+      "③ 工作编排：Skill / Workflow / Sub-agent / Hook"
+    ],
+    "center": "模型引擎",
+    "footer": "Harness 不是一个单独工具，而是模型周围的一整套工程护栏与工作系统"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-10-55.png",
+    "output": "2026-09-21_16-10-55",
+    "id": "memory-system-context",
+    "title": "上下文越来越多，不想每次都重新喂怎么办？",
+    "layout": "chain",
+    "subtitle": "Memory System 记忆系统：把信息保存、整理、检索，并在需要时放回上下文",
+    "nodes": [
+      {
+        "label": "保存",
+        "sub": "从工作现场抽取文档与关系"
+      },
+      {
+        "label": "整理",
+        "sub": "分类上架 · WikiLink 式关联"
+      },
+      {
+        "label": "入库",
+        "sub": "外挂大脑：知识库 + 数据库"
+      },
+      {
+        "label": "检索并回填",
+        "sub": "按需取回，放回当前上下文"
+      }
+    ],
+    "footer": "Markdown | WikiLink 双向链接 | RAG | 知识图谱 | Ontology 本体论"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-11-34.png",
+    "output": "2026-09-21_16-11-34",
+    "id": "automation-to-loop",
+    "title": "AI知道怎么干之后，能不能自己持续干？",
+    "layout": "chain",
+    "subtitle": "RPA → Workflow → Skill → Cron定时任务 → Goal目标 → Loop循獭",
+    "nodes": [
+      {
+        "label": "RPA",
+        "sub": "固定步骤"
+      },
+      {
+        "label": "Workflow",
+        "sub": "节点编排"
+      },
+      {
+        "label": "Skill",
+        "sub": "自然语言 SOP"
+      },
+      {
+        "label": "Cron",
+        "sub": "定时触发"
+      },
+      {
+        "label": "Goal",
+        "sub": "持续目标"
+      },
+      {
+        "label": "Loop",
+        "sub": "反馈 / 验收后循獭"
+      }
+    ],
+    "footer": "Skill + Goal + Cron + 反馈/验收 = Loop；没有反馈与验收只是定时重复"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-11-47.png",
+    "output": "2026-09-21_16-11-47",
+    "id": "agentic-engineering-productize",
+    "title": "把这些能力封装成产品，能不能拿去卖？",
+    "layout": "chain",
+    "subtitle": "Agentic Engineering 智能体工程",
+    "nodes": [
+      {
+        "label": "Vibe Coding",
+        "sub": "自然语言快速做出约 60 分的 Demo"
+      },
+      {
+        "label": "工程化产线",
+        "sub": "架构 · 测试 · 权限 · 监控 · 评测 · 运维"
+      },
+      {
+        "label": "稳定可交付",
+        "sub": "通过验收的服务器级产品"
+      },
+      {
+        "label": "部署形态",
+        "sub": "本地模型 + 一体机 | 小程序 / 云服务器 24 小时运行"
+      }
+    ],
+    "footer": "Demo 容易；做到 90 分并长期稳定，靠的是工程"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-13-12.png",
+    "output": "2026-09-21_16-13-12",
+    "id": "im-agent-on-call",
+    "title": "最后一步：让 Agent 像一个同事一样随叫随到",
+    "layout": "split",
+    "left": [
+      "飞书 | 微信 | 企业微信 | 钉钉",
+      "在熟悉的聊天与办公软件里，像发消息一样调用 Agent",
+      "理解需求 → 规划步骤 → 调用工具 → 生成结果"
+    ],
+    "right": [
+      "知识库：书架与文件",
+      "网页浏览：浏览器与网页",
+      "自动化：齿轮与流程"
+    ],
+    "center": "IM 入口 + Agent + 自动化",
+    "footer": "Token 是模型处理文本的基本单位与常见计费尺子；实际成本由模型单价、输入输出 Token、调用频率和工具执行共同决定"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-16-44.png",
+    "output": "2026-09-21_16-16-44",
+    "id": "kb-tech-map-review",
+    "title": "知识库技术地图回顾",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "地基",
+        "label": "目录分类 | 标签 | 元数据"
+      },
+      {
+        "trigger": "基础整理",
+        "label": "Markdown 清洗 | WikiLink 双向链接 | MOC 导航"
+      },
+      {
+        "trigger": "检索",
+        "label": "Grep 关键词检索 | RAG 向量检索 | 混合检索"
+      },
+      {
+        "trigger": "知识关联",
+        "label": "知识图谱 | 本体 Ontology"
+      }
+    ],
+    "footer": "先把地基搭稳，再按问题升级技术"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-22-58.png",
+    "output": "2026-09-21_16-22-58",
+    "id": "business-problem-inventory",
+    "title": "先做业务问题盘点",
+    "layout": "cycle",
+    "center": "选题 · 文案 · 剪辑 · 拍摄 · 运营",
+    "quadrants": [
+      {
+        "title": "公司有哪些岗位？",
+        "body": "从组织角色出发，而非从文件夹出发"
+      },
+      {
+        "title": "每个岗位负责什么？",
+        "body": "职责边界与交付物"
+      },
+      {
+        "title": "每个岗位怎么工作？",
+        "body": "流程、工具与协作方式"
+      },
+      {
+        "title": "新人最常问什么？",
+        "body": "高频问题即知识库优先级"
+      }
+    ],
+    "footer": "知识库不是从文件开始，而是从岗位、流程和问题开始"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-23-34.png",
+    "output": "2026-09-21_16-23-34",
+    "id": "material-asset-audit",
+    "title": "再做素材盘点",
+    "layout": "lanes_hub_tiers",
+    "hub": "看清手头有什么",
+    "lanes": [
+      {
+        "title": "文档时效与重复",
+        "steps": [
+          "① 过期的产品手册",
+          "③ 多份 SOP：约 40% 重复"
+        ]
+      },
+      {
+        "title": "结构与质量",
+        "steps": [
+          "② 报价 Excel：标准不统一",
+          "④ 会议纪要：信息混乱",
+          "⑤ 扫描 PDF：OCR 可能出错"
+        ]
+      },
+      {
+        "title": "隐性知识",
+        "steps": [
+          "老员工经验还没写下来"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "先看清手头有什么，再决定补什么、删什么"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-25-19.png",
+    "output": "2026-09-21_16-25-19",
+    "id": "complete-dedupe-verify",
+    "title": "补齐、去重、核对",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "手册",
+        "sub": "专人梳理操作/维护手册"
+      },
+      {
+        "label": "文件",
+        "sub": "提炼重点、删除重复"
+      },
+      {
+        "label": "标准",
+        "sub": "找业务负责人核对"
+      },
+      {
+        "label": "脑内经验",
+        "sub": "访谈后写下来"
+      }
+    ],
+    "footer": "AI 可以整理，但权威标准必须由人确认"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-26-12.png",
+    "output": "2026-09-21_16-26-12",
+    "id": "build-kb-and-database",
+    "title": "开始搭知识库和数据库",
+    "layout": "lanes_hub_tiers",
+    "hub": "文档管经验与方法，表格管结构化事实",
+    "lanes": [
+      {
+        "title": "知识库路线",
+        "steps": [
+          "MarkItDown 清洗",
+          "Markdown 文件",
+          "元数据",
+          "目录分类",
+          "WikiLink",
+          "MOC 导航"
+        ]
+      },
+      {
+        "title": "数据库路线",
+        "steps": [
+          "建表",
+          "填表",
+          "核对数据"
+        ]
+      }
+    ],
+    "tiers": []
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_16-28-38.png",
+    "output": "2026-09-21_16-28-38",
+    "id": "test-kb-with-questions",
+    "title": "用问题检验知识库",
+    "layout": "mountain",
+    "subtitle": "30—50 张问题卡片",
+    "stages": [
+      {
+        "trigger": "①",
+        "label": "找得到吗？"
+      },
+      {
+        "trigger": "②",
+        "label": "找得准吗？"
+      },
+      {
+        "trigger": "③",
+        "label": "回答对吗？"
+      },
+      {
+        "trigger": "④",
+        "label": "能引用原文吗？"
+      },
+      {
+        "trigger": "⑤",
+        "label": "不知道时会拒答吗？"
+      }
+    ],
+    "footer": "不是上传成功就算完成，要用真实问题验收；还要测试旧版、冲突和越权"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_17-19-03.png",
+    "output": "2026-09-21_17-19-03",
+    "id": "plan-architecture-strong-models",
+    "title": "模型越强，Plan 架构设计越重要",
+    "layout": "split",
+    "left": [
+      "前端：Claude Fable 5 + Kimi K3 + Design Skill → 更有审美",
+      "FRONT-END ENGINE：UI 与页面生成"
+    ],
+    "right": [
+      "后端：GPT 模型 + 可选 Superpowers 架构",
+      "BACK-END ENGINE：API / Auth / Data 服务"
+    ],
+    "center": "人类：架构设计总览 · 需求拆解 · 验收清单 · 责任签名",
+    "footer": "AI：执行、生成 | 人类：拆解需求、下定义、审核验收、承担责任"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_17-21-39.png",
+    "output": "2026-09-21_17-21-39",
+    "id": "agentic-engineering-pipeline",
+    "title": "Autonomous Engineering | 智能体工程",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "Evidence",
+        "sub": "证据"
+      },
+      {
+        "label": "Brief",
+        "sub": "摘要"
+      },
+      {
+        "label": "Spec",
+        "sub": "规范"
+      },
+      {
+        "label": "Architecture",
+        "sub": "架构"
+      },
+      {
+        "label": "Plan",
+        "sub": "方案"
+      },
+      {
+        "label": "Tasks",
+        "sub": "任务"
+      },
+      {
+        "label": "Implement",
+        "sub": "实现"
+      },
+      {
+        "label": "Test",
+        "sub": "测试"
+      },
+      {
+        "label": "Review",
+        "sub": "审查"
+      },
+      {
+        "label": "Deployed",
+        "sub": "部署"
+      },
+      {
+        "label": "Observe",
+        "sub": "监控"
+      }
+    ]
+  }
+]

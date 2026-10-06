@@ -1,0 +1,20 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="how-companies-operate" name="不同公司怎么运转">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="640" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="不同公司怎么运转" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="740" height="40" as="geometry"/></mxCell>
+        <mxCell id="subtitle" value="FDE 实战训练营 · 第四节 | 怎么从个人提效到组织提效？" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;" vertex="1" parent="1"><mxGeometry x="80" y="48" width="740" height="28" as="geometry"/></mxCell>
+        <mxCell id="s0" value="① OPC&amp;#xa;→ 一人工作台 | 个人生产力 · 专注 · 效率 · 工具 | 从 0 到 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="460" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1" value="② 小型公司&amp;#xa;→ 以老板为中心 | 老板视角 · 决策 · 执行 · 结果 | 从 1 到 N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="350" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s2" value="③ 业务单元&amp;#xa;→ 团队协同作战 | 产品 · 运营 · 市场 · 交付 · 支持 | 从 N 到 M" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="240" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3" value="④ 集团公司&amp;#xa;→ 战略驱动 · 生态协同 | 战略与投资 · 财务与风控 · 人力与组织 · 数字化与 AI · 品牌与生态 | 从 M 到 ∞" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="280" y="130" width="340" height="80" as="geometry"/></mxCell>
+        <mxCell id="em0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s1" target="s0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s2" target="s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="em2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="s3" target="s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_12-36-56.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="612" width="820" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

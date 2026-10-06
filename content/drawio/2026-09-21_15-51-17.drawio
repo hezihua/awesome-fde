@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="data-relocation-unfair-competition" name="搪走的不是几条内容，而是别人的数据经营成果">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="搪走的不是几条内容，而是别人的数据经营成果" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="940" height="40" as="geometry"/></mxCell>
+        <mxCell id="core" value="整库搪运" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="470" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="l0" value="指导性案例262号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l0" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l1" value="一审：(2019) 京0108民列35902号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l1" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l2" value="二审：(2021) 京73民终1011号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l2" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l3" value="构成不正当竞争 | 判赔500万元" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="370" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l3" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r0" value="原平台数据库 → 搪运后新平台数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r1" value="搪运 50,392 个短视频" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" value="含平台专有代码、昵称头像和评论数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="知识库不能整库搪运" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="530" width="1020" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-51-17.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="592" width="1020" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

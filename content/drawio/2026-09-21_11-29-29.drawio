@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="graphrag-spider-web" name="技术 05 | GraphRAG：沿着蛛网找答案">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="技术 05 | GraphRAG：沿着蛛网找答案" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="跨文档检索" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="全局总结" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane2" value="识别复杂关系" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="390" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="hub" value="跨文档图网络 · 沿关系路径检索" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="tier_box" value="知识库层级" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="1280" y="90" width="260" height="230" as="geometry"/></mxCell>
+        <mxCell id="t0" value="边界：建图成本高，关系抽错会一路传错" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#333333;" vertex="1" parent="tier_box"><mxGeometry x="30" y="50" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_t0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="hub" target="t0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="t1" value="最后仍要回到原文核验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;" vertex="1" parent="tier_box"><mxGeometry x="30" y="140" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_t1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="t0" target="t1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-29-29.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,26 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="model-harness-agent" name="它能干活，但怎样安全、稳定、可重复？">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="它能干活，但怎样安全、稳定、可重复？" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="940" height="40" as="geometry"/></mxCell>
+        <mxCell id="core" value="模型引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="470" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="l0" value="工程护栏：层层防护，稳固可靠" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l0" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l1" value="标准接口：松耦合，可扩展" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l1" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l2" value="编排有序：自动协同，可追踪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l2" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r0" value="① 接口：API / CLI / MCP / Tool Calling / Plugin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r1" value="② 上下文：Session / Memory / 知识库 / 数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" value="③ 工作编排：Skill / Workflow / Sub-agent / Hook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="Harness 不是一个单独工具，而是模型周围的一整套工程护栏与工作系统" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="530" width="1020" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_16-10-19.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="592" width="1020" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

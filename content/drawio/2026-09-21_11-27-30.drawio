@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="knowledge-graph-network" name="技术 04 | 知识图谱：编一张关系网">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="技术 04 | 知识图谱：编一张关系网" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="节点" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane0_s0" value="人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane0_s1" value="公司" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s0_lane0_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s0" target="lane0_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane0_s2" value="合同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="480" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s1_lane0_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s1" target="lane0_s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane0_s3" value="产品" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="660" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s2_lane0_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s2" target="lane0_s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane0_s4" value="事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="840" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s3_lane0_s4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s3" target="lane0_s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="关系" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1_s0" value="属于" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane1_s1" value="签署" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s0_lane1_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s0" target="lane1_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1_s2" value="服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="480" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s1_lane1_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s1" target="lane1_s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1_s3" value="影响" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="660" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s2_lane1_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s2" target="lane1_s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1_s4" value="参与" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="840" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s3_lane1_s4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s3" target="lane1_s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="hub" value="某科技公司（关系网中心）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="e_hub0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane0_s4" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane1_s4" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="tier_box" value="知识库层级" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="1280" y="90" width="260" height="320" as="geometry"/></mxCell>
+        <mxCell id="t0" value="像思维导图，但关系更严格、可以被机器查询" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#333333;" vertex="1" parent="tier_box"><mxGeometry x="30" y="50" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_t0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="hub" target="t0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="t1" value="适合：多跳关系、影响分析、客户—合同—项目—回款" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;" vertex="1" parent="tier_box"><mxGeometry x="30" y="140" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_t1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="t0" target="t1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="t2" value="三元组（证据）：张三 — 参加 — FDE 训练营" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#333333;" vertex="1" parent="tier_box"><mxGeometry x="30" y="230" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_t2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="t1" target="t2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-27-30.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

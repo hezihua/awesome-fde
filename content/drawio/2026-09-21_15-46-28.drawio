@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="ai-creation-infringement-liability" name="AI 参与创作，也不能把侵权甩给AI">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="AI 参与创作，也不能把侵权甩给AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="940" height="40" as="geometry"/></mxCell>
+        <mxCell id="core" value="多轮提示词 + 参数调整 + 选择修改 = 人的智力投入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="470" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="l0" value="AI 文生图创作界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l0" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l1" value="多轮提示词 · 参数调整 · 选择修改" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l1" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r0" value="《春风送来了温柔》AI文生图案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r1" value="?2023?京0491民初11279号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" value="赔礼道歉 + 赔偿 500 元" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="保存提示词、参数、版本、原图与修改记录" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="530" width="1020" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-46-28.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="592" width="1020" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

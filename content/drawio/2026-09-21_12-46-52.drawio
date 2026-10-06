@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="back-office-sustain" name="后台：让公司持续活下去">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="后台：让公司持续活下去" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="财务" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane0_s0" value="管钱" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane0_s1" value="收款 → 资金流 → 付款" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s0_lane0_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s0" target="lane0_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="人力" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1_s0" value="找人、用人、培养、激励、淘汰" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane1_s1" value="吸引 → 筛选 → 培养 → 激励 → 淘汰" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s0_lane1_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s0" target="lane1_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane2" value="法务" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="390" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane2_s0" value="合规与边界" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane2"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane2_s1" value="合同 · 边界线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane2"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane2_s0_lane2_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane2" source="lane2_s0" target="lane2_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane3" value="IT" style="swimlane;horizontal=0;startSize=110;fillColor=#fce4ec;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="540" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane3_s0" value="数字基建、数字资产与安全" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane3"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane3_s1" value="服务器 · 网络 · 云 · 安全锁" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane3"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane3_s0_lane3_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane3" source="lane3_s0" target="lane3_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane4" value="行政" style="swimlane;horizontal=0;startSize=110;fillColor=#fff0e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="690" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane4_s0" value="日常支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane4"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane4_s1" value="物资 · 场地 · 会议 · 后勤 · 对外联络" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane4"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane4_s0_lane4_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane4" source="lane4_s0" target="lane4_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="hub" value="前台业务运转：办公 · 会议 · 物流交付" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="e_hub0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane0_s1" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane1_s1" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane2_s1" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane3_s1" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane4_s1" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_12-46-52.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

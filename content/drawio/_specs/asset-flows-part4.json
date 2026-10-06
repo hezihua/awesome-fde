@@ -1,0 +1,10 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-37-15.png",
+    "output": "2026-09-21_15-37-15",
+    "id": "pitfalls-we-have-hit",
+    "title": "我们踩过的坑有哪些？",
+    "layout": "chain",
+    "nodes": [{"label": "a", "sub": "b"}]
+  }
+]

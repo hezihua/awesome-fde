@@ -1,0 +1,378 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-49-27.png",
+    "output": "2026-09-21_12-49-27",
+    "id": "two-ai-value-types",
+    "title": "两种 AI 落地价值",
+    "layout": "lanes_hub_tiers",
+    "hub": "优化（内部）· 增长漏斗（外部）",
+    "lanes": [
+      {
+        "title": "内部经营：部门、需求、指标、标准",
+        "steps": [
+          "部门",
+          "需求",
+          "指标",
+          "标准"
+        ]
+      },
+      {
+        "title": "外部增长",
+        "steps": [
+          "获客",
+          "销转",
+          "升单",
+          "复购",
+          "转介绍"
+        ]
+      }
+    ],
+    "tiers": [
+      "内部典型价值：有限范围内降本增效，常见目标 30%—50%",
+      "外部：可能打开 10 倍、100 倍增长想象空间"
+    ],
+    "footer": "不是结果承诺，取决于产品、渠道、市场与执行"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_12-51-36.png",
+    "output": "2026-09-21_12-51-36",
+    "id": "front-middle-back-office",
+    "title": "前台做增长，中台做提效，后台做降本",
+    "layout": "lanes_hub_tiers",
+    "hub": "业务成果仪表盘",
+    "lanes": [
+      {
+        "title": "前台 · 做增长",
+        "steps": [
+          "市场与客户触达",
+          "需求与机会识别",
+          "增长策略与执行"
+        ]
+      },
+      {
+        "title": "中台 · 做提效",
+        "steps": [
+          "文档与流程",
+          "编排与自动化",
+          "数据与分析",
+          "交付与验收"
+        ]
+      },
+      {
+        "title": "后台 · 做降本",
+        "steps": [
+          "成本控制",
+          "合规管理",
+          "风险管理",
+          "技术与数据",
+          "支持保障"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "没有唯一答案 | 看企业实际情况 | 看客户真实需求 | 看公司的经营选择"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-12-10.png",
+    "output": "2026-09-21_14-12-10",
+    "id": "phase1-personal-efficiency",
+    "title": "第一阶段：个人提效",
+    "layout": "chain",
+    "nodes": [
+      {
+        "label": "不会用 AI",
+        "sub": "起点"
+      },
+      {
+        "label": "安装部署",
+        "sub": "能用上"
+      },
+      {
+        "label": "基础培训",
+        "sub": "能用上"
+      },
+      {
+        "label": "培训带练",
+        "sub": "用得好"
+      },
+      {
+        "label": "轻度定制",
+        "sub": "用得好"
+      },
+      {
+        "label": "黑客松",
+        "sub": "不抵触用"
+      },
+      {
+        "label": "项目激励",
+        "sub": "文化调整 + 激励"
+      }
+    ],
+    "footer": "目标：让人真正开始改变工作方式"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-17-00.png",
+    "output": "2026-09-21_14-17-00",
+    "id": "phase2-department-efficiency",
+    "title": "第二阶段：部门提效",
+    "layout": "cycle",
+    "center": "部门知识库",
+    "quadrants": [
+      {
+        "title": "共享上下文",
+        "body": "部门知识库，共同访问"
+      },
+      {
+        "title": "共同标准",
+        "body": "什么是好、进度如何、怎样验收"
+      },
+      {
+        "title": "共用能力",
+        "body": "Skill · 定时任务 · 项目协作"
+      },
+      {
+        "title": "协作原则",
+        "body": "人机协同围桌作业"
+      }
+    ],
+    "footer": "公平 | 公开 | 透明 | 公认"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-23-04.png",
+    "output": "2026-09-21_14-23-04",
+    "id": "phase3-org-efficiency",
+    "title": "第三阶段：组织提效",
+    "layout": "lanes_hub_tiers",
+    "hub": "成熟的企业级 Agent 协作",
+    "lanes": [
+      {
+        "title": "人才：培训、培养、筛选与更新",
+        "steps": [
+          "FDE 培训",
+          "人才培养",
+          "人才筛选与更新"
+        ]
+      },
+      {
+        "title": "工具：企业级 Agent",
+        "steps": [
+          "市场分析 Agent",
+          "研发设计 Agent",
+          "数据分析 Agent",
+          "知识管理 Agent",
+          "客户服务 Agent"
+        ]
+      },
+      {
+        "title": "组织：科层 + 契约 + 项目制",
+        "steps": [
+          "科层责任链",
+          "契约边界（目标权责 / SLA / 资源预算）",
+          "前台项目小队",
+          "后台支持平台"
+        ]
+      }
+    ],
+    "tiers": [
+      "标准化接口 + 企业数据 + 安全合规",
+      "前台围绕项目作战，后台保障日常运转"
+    ],
+    "footer": "人定方向与验收，AI 承担大量执行"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-50-15.png",
+    "output": "2026-09-21_14-50-15",
+    "id": "business-model-basics",
+    "title": "什么叫商业模式？",
+    "layout": "chain",
+    "subtitle": "商业模式，就是赚钱的路子。",
+    "nodes": [
+      {
+        "label": "获客",
+        "sub": "找到有预算的客户"
+      },
+      {
+        "label": "销转",
+        "sub": "签单收款"
+      },
+      {
+        "label": "交付",
+        "sub": "提供对应的产品或服务"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-51-16.png",
+    "output": "2026-09-21_14-51-16",
+    "id": "business-model-water-source",
+    "title": "先找到水源",
+    "layout": "chain",
+    "subtitle": "所有商业模式的出发点，都是找到市场需求和钱的流向。",
+    "nodes": [
+      {
+        "label": "找到水源",
+        "sub": "市场需求与钱流"
+      },
+      {
+        "label": "挖水井",
+        "sub": "先提供服务"
+      },
+      {
+        "label": "铺水管",
+        "sub": "做成标准化产品"
+      },
+      {
+        "label": "收水费",
+        "sub": "订阅费、Token 费等"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_14-53-59.png",
+    "output": "2026-09-21_14-53-59",
+    "id": "fde-business-model",
+    "title": "FDE 怎么搭商业模式？",
+    "layout": "chain",
+    "subtitle": "把企业需求逐步建设成可持续供水系统",
+    "nodes": [
+      {
+        "label": "挖水井 · 服务",
+        "sub": "企业 AI 内训 · 智能体定制"
+      },
+      {
+        "label": "铺水管 · 产品",
+        "sub": "标准化培训 · SaaS · 一体机"
+      },
+      {
+        "label": "收水费 · 持续收入",
+        "sub": "Token / 月费 / 年费 / 人头订阅"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-10-21.png",
+    "output": "2026-09-21_15-10-21",
+    "id": "seven-money-questions",
+    "title": "赚钱七问",
+    "layout": "chain",
+    "subtitle": "案例：老板 AI 线下课",
+    "nodes": [
+      {
+        "label": "1 谁来付钱？",
+        "sub": "老板"
+      },
+      {
+        "label": "2 为啥付钱？",
+        "sub": "想学 AI，也相信你的价值"
+      },
+      {
+        "label": "3 卖的是什么？",
+        "sub": "线下大课"
+      },
+      {
+        "label": "4 怎么收钱？",
+        "sub": "一次性对公打款"
+      },
+      {
+        "label": "5 怎么交付？",
+        "sub": "集中上课服务"
+      },
+      {
+        "label": "6 利润在哪里？",
+        "sub": "课程服务"
+      },
+      {
+        "label": "7 如何持续？",
+        "sub": "升单产品、SaaS 订阅"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-13-38.png",
+    "output": "2026-09-21_15-13-38",
+    "id": "company-two-concerns",
+    "title": "公司关心的两件事",
+    "layout": "mountain",
+    "subtitle": "所有公司都建立在某一种商业模式上；公司是一种商业生命体。",
+    "stages": [
+      {
+        "trigger": "增长",
+        "label": "我能不能多赚钱？"
+      },
+      {
+        "trigger": "可持续",
+        "label": "我能不能持续赚钱？"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-14-46.png",
+    "output": "2026-09-21_15-14-46",
+    "id": "money-making-cycle",
+    "title": "赚钱是一个循环",
+    "layout": "chain",
+    "subtitle": "FDE 做自媒体赚钱",
+    "nodes": [
+      {
+        "label": "1 客户从哪来",
+        "sub": "自媒体"
+      },
+      {
+        "label": "2 为什么下单",
+        "sub": "卖点与案例信任"
+      },
+      {
+        "label": "3 买了什么",
+        "sub": "服务与产品"
+      },
+      {
+        "label": "4 怎么交付",
+        "sub": "驻场与 SaaS 开发"
+      },
+      {
+        "label": "5 什么时候回款",
+        "sub": "预付款、阶段款、尾款"
+      },
+      {
+        "label": "6 如何复购",
+        "sub": "订阅费、运维费"
+      }
+    ],
+    "footer": "任何一环断掉，赚钱循环都会慢慢衰亡"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_15-17-07.png",
+    "output": "2026-09-21_15-17-07",
+    "id": "three-accounting-books",
+    "title": "算账：指挥公司活下去",
+    "layout": "lanes_hub_tiers",
+    "hub": "三本账",
+    "lanes": [
+      {
+        "title": "利润账",
+        "steps": [
+          "收入 - 成本 = 毛利",
+          "毛利 - 经营成本 = 经营利润",
+          "经营利润 - 利息/税费/折旧 = 净利润"
+        ]
+      },
+      {
+        "title": "现金账",
+        "steps": [
+          "账上有没有健康现金流？",
+          "重点看垫款、账期",
+          "预付款和订阅费更健康"
+        ]
+      },
+      {
+        "title": "单位经济账",
+        "steps": [
+          "每条产品线 ROI 是否算得过来？",
+          "每个客户 ROI 是否算得过来？",
+          "每个项目 ROI 是否算得过来？"
+        ]
+      }
+    ],
+    "tiers": []
+  }
+]

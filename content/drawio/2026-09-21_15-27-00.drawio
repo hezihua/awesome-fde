@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="six-profit-sources" name="六种利润来源">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="六种利润来源" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="抬价" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane0_s0" value="品牌、案例与稀缺性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="成本控制" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1_s0" value="供应链、技术、管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane2" value="周转" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="390" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane2_s0" value="翻台率、库存周转、资金周转" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane2"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane3" value="规模" style="swimlane;horizontal=0;startSize=110;fillColor=#fce4ec;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="540" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane3_s0" value="标准化复制，边际成本下降" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane3"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane4" value="流量" style="swimlane;horizontal=0;startSize=110;fillColor=#fff0e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="690" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane4_s0" value="渠道、平台、注意力入口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane4"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane5" value="差价" style="swimlane;horizontal=0;startSize=110;fillColor=#e1d5e7;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="840" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane5_s0" value="时间差、信息差、汇率差、地域差" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane5"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="hub" value="利润湖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="e_hub0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane0_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane1_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane2_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane3_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane4_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane5_s0" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_15-27-00.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

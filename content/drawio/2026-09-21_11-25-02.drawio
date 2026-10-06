@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="keyword-search-tech" name="技术 02 | 关键词检索">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="技术 02 | 关键词检索" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="80" y="10" width="940" height="40" as="geometry"/></mxCell>
+        <mxCell id="core" value="姓名 · 型号 · 编号 · 法规原句" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="470" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="l0" value="Grep / 正则搜索" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l0" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l1" value="逐页查找 · 逐字比对 · 耗时耗力" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l1" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l2" value="逐字找同一个词：准确、直接，换个说法可能找不到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l2" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l3" value="档案柜：设计图纸 · 设备说明书 · 检验记录 · 变更文件 · 验收资料" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="40" y="370" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="el3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="l3" target="core"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r0" value="增强关键词检索：倒排索引 + BM25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r1" value="先做词表和索引，再按相关性排序：更快、更会排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" value="倒排索引：词项 → 文档列表（DocID、频次、位置…）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="280" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r3" value="BM25 相关性排序：D3(12.45) · D12(9.87) · D77(6.21) · D42(3.66)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="370" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r4" value="查询示例：型号 X100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="840" y="460" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="er4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="core" target="r4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="擅长姓名、型号、编号、法规原句；不等于语义理解" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="530" width="1020" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-25-02.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="592" width="1020" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

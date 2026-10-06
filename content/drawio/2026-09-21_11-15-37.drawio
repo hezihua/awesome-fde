@@ -1,0 +1,20 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="trustworthy-context" name="什么样的上下文，才值得相信？">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="什么样的上下文，才值得相信？" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=20;" vertex="1" parent="1"><mxGeometry x="100" y="10" width="800" height="40" as="geometry"/></mxCell>
+        <mxCell id="q0" value="1. 可以追溯：来源与标签完整&amp;#xa;来源：权威 / 内部系统 / 公开网站 / 专家访谈 / 历史档案；来源标签含来源、作者、时间、类型、ID；归档轨迹：采集 → 入库 → 校验 → 归档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="80" y="120" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q1" value="2. 可以理解：完整、准确、不重复、不冲突&amp;#xa;完整性检查（必要字段齐全）→ 清洗与补全 → 去重与合并 → 冲突解析（保留最佳版本）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="520" y="120" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q2" value="3. 可以控制：来源评级、权限、版本可管&amp;#xa;来源评级（权威至不可信五星）· 权限（管理员 / 编辑 / 只读）· 版本管理（v3.1 / v3.0 / v2.1）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="520" y="420" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="q3" value="4. 可以相信：权威来源 + 规范整理 + 统一标准&amp;#xa;权威认证 · 规范整理（统一命名、清晰目录、一致结构、可检索）· 统一标准（口径、单位、格式）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="360" height="120" as="geometry"/></mxCell>
+        <mxCell id="ec0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q0" target="q1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q1" target="q2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q2" target="q3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="q3" target="q0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-15-37.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="672" width="920" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

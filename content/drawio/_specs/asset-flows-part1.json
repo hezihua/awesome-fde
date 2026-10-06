@@ -1,0 +1,260 @@
+[
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-49-39.png",
+    "output": "2026-09-21_10-49-39",
+    "id": "knowledge-base-sources",
+    "title": "知识库从哪里来?",
+    "layout": "lanes_hub_tiers",
+    "lanes": [
+      {
+        "title": "① 没有数字化",
+        "steps": [
+          "访谈",
+          "录音",
+          "转文字",
+          "整理"
+        ]
+      },
+      {
+        "title": "② 已有文档",
+        "steps": [
+          "收集",
+          "去重",
+          "分类",
+          "清洗"
+        ]
+      },
+      {
+        "title": "③ Microsoft MarkItDown",
+        "steps": [
+          "Word / PPT / PDF / Excel 转 Markdown"
+        ]
+      }
+    ],
+    "hub": "知识入库与连通",
+    "tiers": [
+      "① 个人: Obsidian",
+      "② 团队: 飞书知识库 / 企业微信文档",
+      "③ Agent项目: 共享知识",
+      "④ 高要求本地化: FastGPT 二次开发"
+    ],
+    "footer": "SAG / SQL 关联: 值得关注，先验证再使用"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-54-43.png",
+    "output": "2026-09-21_10-54-43",
+    "id": "rag-ontology-necessity",
+    "title": "有没有必要一上来就做 RAG 和本体论？",
+    "layout": "mountain",
+    "subtitle": "大部分常见场景：没有必要",
+    "stages": [
+      {
+        "trigger": "少量高频资料",
+        "label": "文件夹 / 云文档"
+      },
+      {
+        "trigger": "资料增多、检索不准",
+        "label": "RAG（文档索引库 → 检索 → 重排 → 生成 → 回答）"
+      },
+      {
+        "trigger": "跨系统复杂关系、强治理",
+        "label": "Ontology（本体模型 · 实体 · 权限控制 · 治理策略）"
+      }
+    ],
+    "footer": "先小后大 | 先简单后复杂 | 先验证价值再工程化；大多数岗位只反复调用有限资料，百万级上下文先能覆盖不少小知识库"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-55-51.png",
+    "output": "2026-09-21_10-55-51",
+    "id": "automation-capability-upgrade",
+    "title": "自动化能力的升级路径",
+    "layout": "chain",
+    "subtitle": "从照着做，到围绕目标持续做",
+    "nodes": [
+      {
+        "label": "RPA",
+        "sub": "固定步骤"
+      },
+      {
+        "label": "Workflow",
+        "sub": "节点编排"
+      },
+      {
+        "label": "Skill",
+        "sub": "自然语言 SOP"
+      },
+      {
+        "label": "Cron",
+        "sub": "定时触发"
+      },
+      {
+        "label": "Goal",
+        "sub": "持续目标"
+      },
+      {
+        "label": "Loop",
+        "sub": "自主循环"
+      }
+    ],
+    "footer": "Skill + Cron + Goal = Loop"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-56-34.png",
+    "output": "2026-09-21_10-56-34",
+    "id": "aka-problem-coverage",
+    "title": "AKA 能解决多少问题？",
+    "layout": "lanes_hub_tiers",
+    "hub": "覆盖大多数常见企业 AI 场景（经验判断：约 80% 常见问题）",
+    "lanes": [
+      {
+        "title": "内容与研究",
+        "steps": []
+      },
+      {
+        "title": "数据管理",
+        "steps": []
+      },
+      {
+        "title": "知识问答",
+        "steps": []
+      },
+      {
+        "title": "内部协作",
+        "steps": []
+      },
+      {
+        "title": "流程自动化",
+        "steps": []
+      }
+    ],
+    "tiers": [
+      "更复杂的功能：看预算、算成本、算收益"
+    ],
+    "footer": "不是功能越多越好，而是 ROI 算得过来"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_10-59-42.png",
+    "output": "2026-09-21_10-59-42",
+    "id": "classroom-model-combo-202608",
+    "title": "2026.08 课堂推荐模型组合",
+    "layout": "lanes_hub_tiers",
+    "hub": "按任务选模型（中央控制台）",
+    "lanes": [
+      {
+        "title": "编程",
+        "steps": [
+          "GPT 5.6 SOL",
+          "GLM 5.2",
+          "Claude Opus 5 / Fable 5"
+        ]
+      },
+      {
+        "title": "文本创作",
+        "steps": [
+          "DeepSeek"
+        ]
+      },
+      {
+        "title": "多模态与 UI",
+        "steps": [
+          "Kimi K3"
+        ]
+      },
+      {
+        "title": "图片",
+        "steps": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ]
+      },
+      {
+        "title": "视频",
+        "steps": [
+          "Seedance 2.0",
+          "Seedance 2.5"
+        ]
+      }
+    ],
+    "tiers": [],
+    "footer": "按任务选角色，不按榜单追第一"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-15-37.png",
+    "output": "2026-09-21_11-15-37",
+    "id": "trustworthy-context",
+    "title": "什么样的上下文，才值得相信？",
+    "layout": "cycle",
+    "subtitle": "可信上下文观测站 · 已验证的上下文存档包",
+    "quadrants": [
+      {
+        "title": "1. 可以追溯：来源与标签完整",
+        "body": "来源：权威 / 内部系统 / 公开网站 / 专家访谈 / 历史档案；来源标签含来源、作者、时间、类型、ID；归档轨迹：采集 → 入库 → 校验 → 归档"
+      },
+      {
+        "title": "2. 可以理解：完整、准确、不重复、不冲突",
+        "body": "完整性检查（必要字段齐全）→ 清洗与补全 → 去重与合并 → 冲突解析（保留最佳版本）"
+      },
+      {
+        "title": "3. 可以控制：来源评级、权限、版本可管",
+        "body": "来源评级（权威至不可信五星）· 权限（管理员 / 编辑 / 只读）· 版本管理（v3.1 / v3.0 / v2.1）"
+      },
+      {
+        "title": "4. 可以相信：权威来源 + 规范整理 + 统一标准",
+        "body": "权威认证 · 规范整理（统一命名、清晰目录、一致结构、可检索）· 统一标准（口径、单位、格式）"
+      }
+    ]
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-17-56.png",
+    "output": "2026-09-21_11-17-56",
+    "id": "information-to-wisdom",
+    "title": "信息怎样一步步变成智慧？",
+    "layout": "mountain",
+    "stages": [
+      {
+        "trigger": "整理",
+        "label": "数据与信号 | 未经整理的原始记录"
+      },
+      {
+        "trigger": "提炼",
+        "label": "信息 | 经过简单整理的数据"
+      },
+      {
+        "trigger": "判断",
+        "label": "知识 | 从信息中提炼出的规则、规律与经验"
+      },
+      {
+        "trigger": "",
+        "label": "智慧 | 从经验和规则中凝聚出的判断力"
+      }
+    ],
+    "footer": "整理 → 提炼 → 判断"
+  },
+  {
+    "source_image": "public/assets/Snipaste_2026-09-21_11-20-13.png",
+    "output": "2026-09-21_11-20-13",
+    "id": "markdown-wikilink-tech",
+    "title": "技术 01 | Markdown + WikiLink",
+    "layout": "split",
+    "left": [
+      "# 项目笔记",
+      "目标：搭建知识体系 · 提升可复用性 · 持续迭代",
+      "背景：系统设计需跨主题知识连接与沉淀",
+      "关键点：原子化记录 · 互联互通 · 持续生长",
+      "方案：Markdown + WikiLink 构建最轻量知识网络",
+      "引用：《卡片笔记写作法》— 把想法分开来写，才能连接得更好"
+    ],
+    "right": [
+      "[[ 项目笔记 ]]（中心）",
+      "[[ 知识网络 ]]",
+      "[[ 原子笔记 ]]",
+      "[[ 系统设计 ]]",
+      "[[ 持续迭代 ]]",
+      "Markdown：干净、易读、易迁移的纯文本",
+      "WikiLink：用 [[双向链接]] 把笔记连起来",
+      "反向链接：自动看见「谁提到过我」"
+    ],
+    "center": "连接产生洞察！",
+    "footer": "最轻、最基础的人类可维护知识网络"
+  }
+]

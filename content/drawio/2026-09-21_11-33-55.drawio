@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" agent="awesome-fde" version="24.0.0">
+  <diagram id="kb-eight-build-methods" name="知识库常见的 8 种搭建方法">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="知识库常见的 8 种搭建方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="400" y="10" width="760" height="40" as="geometry"/></mxCell>
+        <mxCell id="lane0" value="结构与元数据" style="swimlane;horizontal=0;startSize=110;fillColor=#fff9e6;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="90" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane0_s0" value="1. 目录层级：放在哪里" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane0_s1" value="2. 分类：统一叫法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s0_lane0_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s0" target="lane0_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane0_s2" value="3. 标签：多个主题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="480" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s1_lane0_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s1" target="lane0_s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane0_s3" value="4. 元数据：来源、日期、负责人、版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane0"><mxGeometry x="660" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane0_s2_lane0_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane0" source="lane0_s2" target="lane0_s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1" value="连接与建模" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;strokeColor=#666666;html=1;" vertex="1" parent="1"><mxGeometry x="0" y="240" width="1240" height="150" as="geometry"/></mxCell>
+        <mxCell id="lane1_s0" value="5. WikiLink：笔记主动拉线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="120" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="lane1_s1" value="6. MOC：主题导航地图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="300" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s0_lane1_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s0" target="lane1_s1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1_s2" value="7. 原子卡片：一张卡片一个观点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="480" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s1_lane1_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s1" target="lane1_s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="lane1_s3" value="8. 本体 Ontology：规定实体、关系与规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;" vertex="1" parent="lane1"><mxGeometry x="660" y="45" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_lane1_s2_lane1_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="lane1" source="lane1_s2" target="lane1_s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="hub" value="知识库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="860" y="260" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="e_hub0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane0_s3" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_hub1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#333333;" edge="1" parent="1" source="lane1_s3" target="hub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="footer" value="先用简单方法把知识管住，再按问题升级" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffffcc;strokeColor=#999999;size=14;" vertex="1" parent="1"><mxGeometry x="40" y="630" width="1480" height="60" as="geometry"/></mxCell>
+        <mxCell id="ref" value="参考：public/assets/Snipaste_2026-09-21_11-33-55.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="692" width="1480" height="22" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
