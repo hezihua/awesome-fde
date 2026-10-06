@@ -10,10 +10,10 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import { rehypeSlugify } from "@/app/lib/rehype-slugify";
 
-const grillDir = path.join(process.cwd(), "grill");
+const qaContentDir = path.join(process.cwd(), "content", "q&a");
 
 function findArticle(slug: string) {
-  const filePath = path.join(grillDir, `${slug}.md`);
+  const filePath = path.join(qaContentDir, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf8");
   const { content, data } = matter(raw);
@@ -27,9 +27,9 @@ function findArticle(slug: string) {
 }
 
 export function generateStaticParams() {
-  if (!fs.existsSync(grillDir)) return [];
+  if (!fs.existsSync(qaContentDir)) return [];
   return fs
-    .readdirSync(grillDir)
+    .readdirSync(qaContentDir)
     .filter((file) => file.endsWith(".md"))
     .map((file) => ({ slug: file.replace(/\.md$/, "") }));
 }
@@ -44,7 +44,7 @@ export async function generateMetadata({
   return article ? { title: article.title, description: article.description } : {};
 }
 
-export default async function GrillArticlePage({
+export default async function QaArticlePage({
   params,
 }: {
   params: Promise<{ slug: string }>;
@@ -57,7 +57,7 @@ export default async function GrillArticlePage({
     <main className="min-h-screen">
       <div className="mx-auto max-w-4xl px-5 py-10 sm:px-8 sm:py-14">
         <Link
-          href="/grill"
+          href="/qa"
           className="mb-8 inline-flex text-sm text-neutral-400 transition-colors hover:text-rose-300"
         >
           ← 返回 Q&A 目录

@@ -3,8 +3,10 @@ import path from "node:path";
 import Link from "next/link";
 import matter from "gray-matter";
 
-function getGrillArticles() {
-  const dir = path.join(process.cwd(), "grill");
+const qaContentDir = path.join(process.cwd(), "content", "q&a");
+
+function getQaArticles() {
+  const dir = qaContentDir;
   if (!fs.existsSync(dir)) return [];
 
   return fs
@@ -27,8 +29,8 @@ function getGrillArticles() {
     });
 }
 
-export default function GrillDirectoryPage() {
-  const articles = getGrillArticles();
+export default function QaDirectoryPage() {
+  const articles = getQaArticles();
 
   return (
     <main className="min-h-screen">
@@ -53,7 +55,7 @@ export default function GrillDirectoryPage() {
               {articles.map((article, index) => (
                 <Link
                   key={article.slug}
-                  href={`/grill/${article.slug}`}
+                  href={`/qa/${article.slug}`}
                   className="group flex items-start gap-4 py-5 transition-colors hover:bg-neutral-900/40 sm:gap-6 sm:px-3"
                 >
                   <span className="pt-0.5 font-mono text-sm text-rose-300/80">

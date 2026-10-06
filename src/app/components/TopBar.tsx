@@ -39,7 +39,7 @@ const items = [
   {
     key: "qa",
     label: "Q&A",
-    href: "/grill",
+    href: "/qa",
     active:
       "border-rose-500/40 bg-rose-500/10 text-rose-200 hover:border-rose-400/60 hover:bg-rose-500/15",
     idle: "border-neutral-800 bg-neutral-900/40 text-neutral-400 hover:border-neutral-700 hover:text-neutral-200",
