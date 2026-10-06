@@ -15,5 +15,10 @@ out/
 .DS_Store
 *.log
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
 # Accidental lockfiles
 /package-lock.json
