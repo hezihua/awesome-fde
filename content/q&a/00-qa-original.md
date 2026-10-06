@@ -1,10 +1,10 @@
 ---
-title: "Grill 原篇：一次 FDE 项目理解问答"
-description: "保留刚才那篇围绕企业 AI 落地、销售邮件 Agent、知识库和价格错误排查的 Grill 问答原线索。"
-category: "Grill 原篇"
+title: "Q&A 原篇：一次 FDE 项目理解问答"
+description: "保留围绕企业 AI 落地、销售邮件 Agent、知识库和价格错误排查的 Q&A 问答原线索。"
+category: "Q&A 原篇"
 ---
 
-# Grill 原篇：一次 FDE 项目理解问答
+# Q&A 原篇：一次 FDE 项目理解问答
 
 > 销售跟进邮件是用于练习项目分析的场景，不代表已经交付的客户案例或效果数据。以下按原来的提问顺序保留，并整理为问题与标准答案。
 
